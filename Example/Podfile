@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PenguinCore_Example' do
+  pod 'PenguinCore', :path => '../'
+
+  target 'PenguinCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
