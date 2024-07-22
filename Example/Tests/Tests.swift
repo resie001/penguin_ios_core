@@ -1,5 +1,5 @@
 import XCTest
-import PenguinCore
+import PenguinRouting
 
 class Tests: XCTestCase {
     

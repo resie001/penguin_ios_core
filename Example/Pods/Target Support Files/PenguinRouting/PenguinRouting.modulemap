@@ -1,0 +1,6 @@
+framework module PenguinRouting {
+  umbrella header "PenguinRouting-umbrella.h"
+
+  export *
+  module * { export * }
+}

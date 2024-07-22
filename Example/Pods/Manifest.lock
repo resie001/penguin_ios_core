@@ -1,0 +1,16 @@
+PODS:
+  - PenguinRouting (1.0.0-dev)
+
+DEPENDENCIES:
+  - PenguinRouting (from `../PenguinRouting.podspec`)
+
+EXTERNAL SOURCES:
+  PenguinRouting:
+    :path: "../PenguinRouting.podspec"
+
+SPEC CHECKSUMS:
+  PenguinRouting: db58d02a3bf0b53298ffac3b666850c590b01881
+
+PODFILE CHECKSUM: 545dd614795355f11e586529273d85009490d74b
+
+COCOAPODS: 1.15.2

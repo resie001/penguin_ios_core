@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C0FCA0A2D77F1FB86EE62430C8F8BC /* PenguinPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABE4879B25A0D90FC298620CC6603B /* PenguinPath.swift */; };
+		22C03D45D0D4FEEAFB3B47C77BF5B47B /* Pods-PenguinCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFA4141E73FB714B08174EA25D1DF8 /* Pods-PenguinCore_Example-dummy.m */; };
+		4375735BCDB4394AA010C658C981C1FE /* PenguinRouterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D1B8FE9A75E2DF01DD3AE1CC6EBE5 /* PenguinRouterRegistry.swift */; };
+		4AEF1FF752D3DAE34F8C3B0699A94B54 /* Pods-PenguinCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35495E3C7BA6DD1CA7F69C4F34FA577 /* Pods-PenguinCore_Tests-dummy.m */; };
+		66246B0C1DC91539CA189786B71DAD63 /* PenguinParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDC5E662CC436424D15D0D307CE5DFB /* PenguinParameter.swift */; };
+		879346301B46691F4143129FEA7B3538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B63E33414867EB03710AA6615E73234A /* PenguinRouterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0618E50072075023C89F4C53FE4C6F /* PenguinRouterError.swift */; };
+		B993766D92A34DA9DE71EF1AF9A1D96D /* PenguinRouting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC37A5C67175344945E1A9D327F79E5E /* PenguinRouting-dummy.m */; };
+		CA3EF1AC4900237033FDFC37A1A29EE5 /* PenguinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444F8FC654183BA9924192FB1BAF17A8 /* PenguinRouter.swift */; };
+		D619FE3E49DFFF751662C522DC8D849B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DAA12C6DCD61AB283994CBDFE3EA05F6 /* PenguinRouting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3F242DB88FFE7344D2C67FCC6A4D49 /* PenguinRouting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E3A4C52D38978E5B43EEFB005B3799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF47D55A909DE953E169BB99040FFEFD /* Pods-PenguinCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55656CE866ABDD58955CE29C0765D778 /* Pods-PenguinCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38A553317B890FE0FA42B73258F341A /* Pods-PenguinCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBCE288366D95BC8C0A9AC5768D34A1 /* Pods-PenguinCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D4388C5EE33AD0D15A329F1845AFFF /* PenguinRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612071F8640C0C412081DF4708017510 /* PenguinRouting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322BB43CF27514DBEF96AC24CE930956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E1CBE403B02CFF150003F3F6EF4F50;
+			remoteInfo = PenguinRouting;
+		};
+		D1490F08DF1A577BFBF276E17E0A4B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D43789931B9C2F6268469E271407E7;
+			remoteInfo = "Pods-PenguinCore_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FFA4141E73FB714B08174EA25D1DF8 /* Pods-PenguinCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinCore_Example-dummy.m"; sourceTree = "<group>"; };
+		086D1B8FE9A75E2DF01DD3AE1CC6EBE5 /* PenguinRouterRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterRegistry.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterRegistry.swift; sourceTree = "<group>"; };
+		0D729AC1B27F22C691ACEA22BF0635E4 /* Pods-PenguinCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Example.release.xcconfig"; sourceTree = "<group>"; };
+		183573F80869BC82EEB9720719CDF42F /* Pods-PenguinCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B503B278174FB9CA012785DE01FC674 /* PenguinRouting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.debug.xcconfig; sourceTree = "<group>"; };
+		30ABE474C654EC0F46F277340D62C766 /* Pods-PenguinCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Tests-Info.plist"; sourceTree = "<group>"; };
+		3459F861907BA533BF6147C194324302 /* PenguinRouting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PenguinRouting; path = PenguinRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB8917DFF65A02D4E55E569CD63882 /* Pods-PenguinCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		444F8FC654183BA9924192FB1BAF17A8 /* PenguinRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouter.swift; sourceTree = "<group>"; };
+		472BFD6CF30EC9A2AE59BAF1A5DB3070 /* PenguinRouting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-prefix.pch"; sourceTree = "<group>"; };
+		49D6C4D28799F2CAB8D2F3E77F85D0F6 /* Pods-PenguinCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55656CE866ABDD58955CE29C0765D778 /* Pods-PenguinCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PenguinCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		5EABE4879B25A0D90FC298620CC6603B /* PenguinPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinPath.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinPath.swift; sourceTree = "<group>"; };
+		5EBCE288366D95BC8C0A9AC5768D34A1 /* Pods-PenguinCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PenguinCore_Tests-umbrella.h"; sourceTree = "<group>"; };
+		612071F8640C0C412081DF4708017510 /* PenguinRouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouting.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouting.swift; sourceTree = "<group>"; };
+		64A6CA402F458FF2A435E55BBD57CC0C /* Pods-PenguinCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D0618E50072075023C89F4C53FE4C6F /* PenguinRouterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterError.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterError.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80B3C223D2A68293322CC640257E97EB /* PenguinRouting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PenguinRouting-Info.plist"; sourceTree = "<group>"; };
+		81F871E34CFB5B487F7A7C1D7B369FF7 /* PenguinRouting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PenguinRouting.modulemap; sourceTree = "<group>"; };
+		887C921F33580CB41A47D7B57DF14FCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8AB5516F0D24F5E0989E3D26E8D703E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04E1C75ACC247EC695AC2725EBFA5D6 /* Pods-PenguinCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A4B6622120840BE852FCE423665C8100 /* Pods-PenguinCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Example-Info.plist"; sourceTree = "<group>"; };
+		AC37A5C67175344945E1A9D327F79E5E /* PenguinRouting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PenguinRouting-dummy.m"; sourceTree = "<group>"; };
+		B226AF53DC6118662B6708BF4B4E0190 /* PenguinRouting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PenguinRouting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C35495E3C7BA6DD1CA7F69C4F34FA577 /* Pods-PenguinCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinCore_Tests-dummy.m"; sourceTree = "<group>"; };
+		C707BE74C0C41BDC8CFC2DE05BCCAFBA /* Pods-PenguinCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1F40B8FD66C94F648F5CB6B1D4E025 /* Pods-PenguinCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PenguinCore_Tests"; path = Pods_PenguinCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2F28BA3CCCE927AC73C00E8B9F99BC /* PenguinRouting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.release.xcconfig; sourceTree = "<group>"; };
+		CE71E2EB69F6134538EA4E8D7A0B794A /* Pods-PenguinCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PenguinCore_Example"; path = Pods_PenguinCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70AE1E6A3D114731702EC775696DEC4 /* Pods-PenguinCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D741CF68482D3B2668E95512583F68F8 /* Pods-PenguinCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E097647393EBA4FED92DC079C21089CB /* Pods-PenguinCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PenguinCore_Example.modulemap"; sourceTree = "<group>"; };
+		F8CFC6EF52431B0285AB0928B45E14FA /* Pods-PenguinCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PenguinCore_Tests.modulemap"; sourceTree = "<group>"; };
+		FB3F242DB88FFE7344D2C67FCC6A4D49 /* PenguinRouting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-umbrella.h"; sourceTree = "<group>"; };
+		FBDC5E662CC436424D15D0D307CE5DFB /* PenguinParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinParameter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinParameter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08198A6344CDF51F65791F56742BE98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E3A4C52D38978E5B43EEFB005B3799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BD57A2B9CB7BC53C04761E80758A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879346301B46691F4143129FEA7B3538 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95CB4D27BEAFFD46B9378D54BC317AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D619FE3E49DFFF751662C522DC8D849B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A4031BAF3EDEB724384E1990C20E88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39D8068E7B2B650BA0F8FA72CF8563F /* Pods-PenguinCore_Example */,
+				2EDC69397FD6A3599BAEF1DCE6FCD2B6 /* Pods-PenguinCore_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EDC69397FD6A3599BAEF1DCE6FCD2B6 /* Pods-PenguinCore_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CFC6EF52431B0285AB0928B45E14FA /* Pods-PenguinCore_Tests.modulemap */,
+				64A6CA402F458FF2A435E55BBD57CC0C /* Pods-PenguinCore_Tests-acknowledgements.markdown */,
+				D70AE1E6A3D114731702EC775696DEC4 /* Pods-PenguinCore_Tests-acknowledgements.plist */,
+				C35495E3C7BA6DD1CA7F69C4F34FA577 /* Pods-PenguinCore_Tests-dummy.m */,
+				30ABE474C654EC0F46F277340D62C766 /* Pods-PenguinCore_Tests-Info.plist */,
+				5EBCE288366D95BC8C0A9AC5768D34A1 /* Pods-PenguinCore_Tests-umbrella.h */,
+				C707BE74C0C41BDC8CFC2DE05BCCAFBA /* Pods-PenguinCore_Tests.debug.xcconfig */,
+				3EDB8917DFF65A02D4E55E569CD63882 /* Pods-PenguinCore_Tests.release.xcconfig */,
+			);
+			name = "Pods-PenguinCore_Tests";
+			path = "Target Support Files/Pods-PenguinCore_Tests";
+			sourceTree = "<group>";
+		};
+		30574CEFC9737EE6DC75D9AC32BA9744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F871E34CFB5B487F7A7C1D7B369FF7 /* PenguinRouting.modulemap */,
+				AC37A5C67175344945E1A9D327F79E5E /* PenguinRouting-dummy.m */,
+				80B3C223D2A68293322CC640257E97EB /* PenguinRouting-Info.plist */,
+				472BFD6CF30EC9A2AE59BAF1A5DB3070 /* PenguinRouting-prefix.pch */,
+				FB3F242DB88FFE7344D2C67FCC6A4D49 /* PenguinRouting-umbrella.h */,
+				2B503B278174FB9CA012785DE01FC674 /* PenguinRouting.debug.xcconfig */,
+				CD2F28BA3CCCE927AC73C00E8B9F99BC /* PenguinRouting.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PenguinRouting";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72DE20A7F24B1B03ECD940F819823B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3459F861907BA533BF6147C194324302 /* PenguinRouting */,
+				CE71E2EB69F6134538EA4E8D7A0B794A /* Pods-PenguinCore_Example */,
+				CD1F40B8FD66C94F648F5CB6B1D4E025 /* Pods-PenguinCore_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22A64D9D39DA9D0515960D234F20783 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5516F0D24F5E0989E3D26E8D703E6 /* LICENSE */,
+				B226AF53DC6118662B6708BF4B4E0190 /* PenguinRouting.podspec */,
+				887C921F33580CB41A47D7B57DF14FCB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B39D8068E7B2B650BA0F8FA72CF8563F /* Pods-PenguinCore_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E097647393EBA4FED92DC079C21089CB /* Pods-PenguinCore_Example.modulemap */,
+				49D6C4D28799F2CAB8D2F3E77F85D0F6 /* Pods-PenguinCore_Example-acknowledgements.markdown */,
+				183573F80869BC82EEB9720719CDF42F /* Pods-PenguinCore_Example-acknowledgements.plist */,
+				02FFA4141E73FB714B08174EA25D1DF8 /* Pods-PenguinCore_Example-dummy.m */,
+				A04E1C75ACC247EC695AC2725EBFA5D6 /* Pods-PenguinCore_Example-frameworks.sh */,
+				A4B6622120840BE852FCE423665C8100 /* Pods-PenguinCore_Example-Info.plist */,
+				55656CE866ABDD58955CE29C0765D778 /* Pods-PenguinCore_Example-umbrella.h */,
+				D741CF68482D3B2668E95512583F68F8 /* Pods-PenguinCore_Example.debug.xcconfig */,
+				0D729AC1B27F22C691ACEA22BF0635E4 /* Pods-PenguinCore_Example.release.xcconfig */,
+			);
+			name = "Pods-PenguinCore_Example";
+			path = "Target Support Files/Pods-PenguinCore_Example";
+			sourceTree = "<group>";
+		};
+		CE3525EB05DE04B3F80A5F69AB0F9B7E /* PenguinRouting */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC5E662CC436424D15D0D307CE5DFB /* PenguinParameter.swift */,
+				5EABE4879B25A0D90FC298620CC6603B /* PenguinPath.swift */,
+				444F8FC654183BA9924192FB1BAF17A8 /* PenguinRouter.swift */,
+				6D0618E50072075023C89F4C53FE4C6F /* PenguinRouterError.swift */,
+				086D1B8FE9A75E2DF01DD3AE1CC6EBE5 /* PenguinRouterRegistry.swift */,
+				612071F8640C0C412081DF4708017510 /* PenguinRouting.swift */,
+				B22A64D9D39DA9D0515960D234F20783 /* Pod */,
+				30574CEFC9737EE6DC75D9AC32BA9744 /* Support Files */,
+			);
+			name = PenguinRouting;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB56A33A91DB117AD24B8DF1C7C383FD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				72DE20A7F24B1B03ECD940F819823B29 /* Products */,
+				04A4031BAF3EDEB724384E1990C20E88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB56A33A91DB117AD24B8DF1C7C383FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE3525EB05DE04B3F80A5F69AB0F9B7E /* PenguinRouting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C7958C241411CF30379EA37722301A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38A553317B890FE0FA42B73258F341A /* Pods-PenguinCore_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8D43E4ACB748CB68BD1849B96B20DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47D55A909DE953E169BB99040FFEFD /* Pods-PenguinCore_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADDD638F8C928694D18A75EEF580A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA12C6DCD61AB283994CBDFE3EA05F6 /* PenguinRouting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		875007F981AB4346FD05F66A387F98A6 /* Pods-PenguinCore_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6403738A25AA3F03A55B7533BD2BDDB9 /* Build configuration list for PBXNativeTarget "Pods-PenguinCore_Tests" */;
+			buildPhases = (
+				4C7958C241411CF30379EA37722301A1 /* Headers */,
+				A5C9441CC912FB992E8084C4FCCE71D0 /* Sources */,
+				08198A6344CDF51F65791F56742BE98C /* Frameworks */,
+				25E40113F39B945CEEA989230D14E6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870ED823BB0627A4A735D34A0292DF89 /* PBXTargetDependency */,
+			);
+			name = "Pods-PenguinCore_Tests";
+			productName = Pods_PenguinCore_Tests;
+			productReference = CD1F40B8FD66C94F648F5CB6B1D4E025 /* Pods-PenguinCore_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2E1CBE403B02CFF150003F3F6EF4F50 /* PenguinRouting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722E5B1D534CB0CBDA434D9FDD6FE9A4 /* Build configuration list for PBXNativeTarget "PenguinRouting" */;
+			buildPhases = (
+				7ADDD638F8C928694D18A75EEF580A9B /* Headers */,
+				C16781A38230BFB3E70B0E68D852F570 /* Sources */,
+				43BD57A2B9CB7BC53C04761E80758A5E /* Frameworks */,
+				54550E735618E9DAD5D1CBF0E456F325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenguinRouting;
+			productName = PenguinRouting;
+			productReference = 3459F861907BA533BF6147C194324302 /* PenguinRouting */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2D43789931B9C2F6268469E271407E7 /* Pods-PenguinCore_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A10BBBC565627BD3C191BB1D2A6113 /* Build configuration list for PBXNativeTarget "Pods-PenguinCore_Example" */;
+			buildPhases = (
+				6F8D43E4ACB748CB68BD1849B96B20DF /* Headers */,
+				F328F3DD212A720C9E0B5A8CE55CEA34 /* Sources */,
+				C95CB4D27BEAFFD46B9378D54BC317AE /* Frameworks */,
+				7A04619CE81F782661F02DBA3F1CF4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74DD7CFDDEC78E9D3FB2C4CA624E28C /* PBXTargetDependency */,
+			);
+			name = "Pods-PenguinCore_Example";
+			productName = Pods_PenguinCore_Example;
+			productReference = CE71E2EB69F6134538EA4E8D7A0B794A /* Pods-PenguinCore_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 72DE20A7F24B1B03ECD940F819823B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E1CBE403B02CFF150003F3F6EF4F50 /* PenguinRouting */,
+				E2D43789931B9C2F6268469E271407E7 /* Pods-PenguinCore_Example */,
+				875007F981AB4346FD05F66A387F98A6 /* Pods-PenguinCore_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E40113F39B945CEEA989230D14E6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54550E735618E9DAD5D1CBF0E456F325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A04619CE81F782661F02DBA3F1CF4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C9441CC912FB992E8084C4FCCE71D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEF1FF752D3DAE34F8C3B0699A94B54 /* Pods-PenguinCore_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16781A38230BFB3E70B0E68D852F570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66246B0C1DC91539CA189786B71DAD63 /* PenguinParameter.swift in Sources */,
+				18C0FCA0A2D77F1FB86EE62430C8F8BC /* PenguinPath.swift in Sources */,
+				CA3EF1AC4900237033FDFC37A1A29EE5 /* PenguinRouter.swift in Sources */,
+				B63E33414867EB03710AA6615E73234A /* PenguinRouterError.swift in Sources */,
+				4375735BCDB4394AA010C658C981C1FE /* PenguinRouterRegistry.swift in Sources */,
+				F3D4388C5EE33AD0D15A329F1845AFFF /* PenguinRouting.swift in Sources */,
+				B993766D92A34DA9DE71EF1AF9A1D96D /* PenguinRouting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F328F3DD212A720C9E0B5A8CE55CEA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C03D45D0D4FEEAFB3B47C77BF5B47B /* Pods-PenguinCore_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870ED823BB0627A4A735D34A0292DF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PenguinCore_Example";
+			target = E2D43789931B9C2F6268469E271407E7 /* Pods-PenguinCore_Example */;
+			targetProxy = D1490F08DF1A577BFBF276E17E0A4B16 /* PBXContainerItemProxy */;
+		};
+		E74DD7CFDDEC78E9D3FB2C4CA624E28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PenguinRouting;
+			target = D2E1CBE403B02CFF150003F3F6EF4F50 /* PenguinRouting */;
+			targetProxy = 322BB43CF27514DBEF96AC24CE930956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D257E7752736D0E118D54F8B0B02551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D729AC1B27F22C691ACEA22BF0635E4 /* Pods-PenguinCore_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DC653D52510B0D8EFEB6F47DD0A6049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDB8917DFF65A02D4E55E569CD63882 /* Pods-PenguinCore_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PenguinCore_Tests/Pods-PenguinCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PenguinCore_Tests/Pods-PenguinCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AEFF7E3B3ABE41B5C46E84E314B0CCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D741CF68482D3B2668E95512583F68F8 /* Pods-PenguinCore_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1AD3C51CCD233D0D9C3ABD0EE9049FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C707BE74C0C41BDC8CFC2DE05BCCAFBA /* Pods-PenguinCore_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PenguinCore_Tests/Pods-PenguinCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PenguinCore_Tests/Pods-PenguinCore_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C29D42BE032AC589776BAFCE6F2D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B503B278174FB9CA012785DE01FC674 /* PenguinRouting.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PenguinRouting/PenguinRouting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PenguinRouting/PenguinRouting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PenguinRouting/PenguinRouting.modulemap";
+				PRODUCT_MODULE_NAME = PenguinRouting;
+				PRODUCT_NAME = PenguinRouting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFDBCA8825983E343408610FED60433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2F28BA3CCCE927AC73C00E8B9F99BC /* PenguinRouting.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PenguinRouting/PenguinRouting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PenguinRouting/PenguinRouting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PenguinRouting/PenguinRouting.modulemap";
+				PRODUCT_MODULE_NAME = PenguinRouting;
+				PRODUCT_NAME = PenguinRouting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6403738A25AA3F03A55B7533BD2BDDB9 /* Build configuration list for PBXNativeTarget "Pods-PenguinCore_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AD3C51CCD233D0D9C3ABD0EE9049FD /* Debug */,
+				8DC653D52510B0D8EFEB6F47DD0A6049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722E5B1D534CB0CBDA434D9FDD6FE9A4 /* Build configuration list for PBXNativeTarget "PenguinRouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C29D42BE032AC589776BAFCE6F2D82 /* Debug */,
+				FFFDBCA8825983E343408610FED60433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A10BBBC565627BD3C191BB1D2A6113 /* Build configuration list for PBXNativeTarget "Pods-PenguinCore_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFF7E3B3ABE41B5C46E84E314B0CCB3 /* Debug */,
+				1D257E7752736D0E118D54F8B0B02551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
