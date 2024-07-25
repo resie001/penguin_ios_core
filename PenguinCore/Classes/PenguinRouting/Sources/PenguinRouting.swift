@@ -12,18 +12,14 @@ public class PenguinRouting {
     private init() {}
     
     public static let shared = PenguinRouting()
+    private var paths: [String] = []
     
     private let decoder = JSONDecoder()
     private let routerRegistry = PenguinRouterRegistry()
-    private var navigationController: UINavigationController? = nil
-    
-    public func register(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-    }
     
     public func getNavApp() -> UINavigationController {
-        guard let nav = navigationController else {
-            fatalError("Navigation controller is empty!")
+        guard let nav = UIApplication.shared.topNavigationController else {
+            fatalError(PenguinRouterError.navigationControllerEmpty.description)
         }
         
         return nav
@@ -43,55 +39,31 @@ public class PenguinRouting {
         routerRegistry.removeAllRouters()
     }
     
-    public func route<T: Decodable>(
-        name: String,
-        path: String,
-        arguments: [String: Any]? = nil,
-        completion: ((Result<T, Error>) -> Void)? = nil
-    ) {
-        let routerType = routerRegistry.routerType(forNamed: name, forPath: path)
-        let router = routerType.init(
-            navigationController: getNavApp(),
-            arguments: arguments
-        ) { [weak self] result in
-            guard let self = self else { return }
-            switch result {
-            case .success(let data):
-                do {
-                    let decodedObject = try self.decoder.decode(T.self, from: data)
-                    completion?(.success(decodedObject))
-                } catch {
-                    completion?(.failure(PenguinRouterError.decodingError))
-                }
-            case .failure(let error):
-                completion?(.failure(error))
-            }
-        }
-        
-        router.route(path: path)
-    }
-    
     public func route(
         name: String,
         path: String,
         arguments: [String: Any]? = nil,
-        completion: ((Result<Void, Error>) -> Void)? = nil
+        completion: ((Result<Data, PenguinRouterError>) -> Void)? = nil
     ) {
         let routerType = routerRegistry.routerType(forNamed: name, forPath: path)
         let router = routerType.init(
             navigationController: getNavApp(),
             arguments: arguments
-        ) { [weak self] result in
-            guard let _ = self else { return }
+        ) { result in
             switch result {
             case .success(let data):
-                completion?(.success(()))
+                completion?(.success(data))
             case .failure(let error):
                 completion?(.failure(error))
             }
         }
         
-        router.route(path: path)
+        let vc = router.route(path: path)
+        getNavApp().pushViewController(vc, animated: true)
+    }
+    
+    public func checkExistingPath() {
+        
     }
     
     public func route(
@@ -104,7 +76,16 @@ public class PenguinRouting {
             navigationController: getNavApp(),
             arguments: arguments
         )
-        
-        router.route(path: path)
+        let vc = router.route(path: path)
+        getNavApp().pushViewController(vc, animated: true)
+    }
+    
+    public func back() {
+        getNavApp().popViewController(animated: true)
+    }
+    
+    public func dismiss(completion: (() -> Void)? = nil) {
+        getNavApp().dismiss(animated: true, completion: completion)
     }
 }
+

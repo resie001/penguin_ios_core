@@ -16,9 +16,21 @@ public enum PenguinRouterError: Error {
     case parameterNotProvided
     case notAcceptableParameter
     
+    case navigationControllerEmpty
+    
+    case unauthorizedPath(path:String, reason: String)
+    
+    case emptyFailure
+    case failureWithString(data: String)
+    case failureWithBool(data: Bool)
+    case failureWithFloat(data: Float)
+    case failureWithInt(data: Int)
+    case failureWithArguments(data: [String: Any])
+    
     case routeNotExist
     case routeAlreadyExist
     case routerNameEmpty
+    case routerNameInvalid(name: String)
     
     case pathNotExist
     case pathAlreadyExist
@@ -42,6 +54,25 @@ extension PenguinRouterError: CustomStringConvertible, CustomDebugStringConverti
             return "Parameter not provided"
         case .notAcceptableParameter:
             return "Parameter not acceptable"
+            
+        case .navigationControllerEmpty:
+            return "Navigation Controller is empty!"
+            
+        case let .unauthorizedPath(path, reason):
+            return "Unauthorized Route for path \"\(path)\" cause \"\(reason)\""
+            
+        case .emptyFailure:
+            return "Failure completion"
+        case .failureWithString:
+            return "Failure completion with String data"
+        case .failureWithInt:
+            return "Failure completion with Int data"
+        case .failureWithFloat:
+            return "Failure completion with Float data"
+        case .failureWithBool:
+            return "Failure completion with Bool data"
+        case .failureWithArguments:
+            return "Failure completion with Arguments data"
         
         case .routeNotExist:
             return "Route not found!"
@@ -49,6 +80,8 @@ extension PenguinRouterError: CustomStringConvertible, CustomDebugStringConverti
             return "Route already exist!"
         case .routerNameEmpty:
             return "Router name cannot be empty!"
+        case .routerNameInvalid(let name):
+            return "Router name \"\(name)\" have invalid format!. Use only lowercased alphabet and (-)."
             
         
         case .pathNotExist:
@@ -56,16 +89,10 @@ extension PenguinRouterError: CustomStringConvertible, CustomDebugStringConverti
         case .pathAlreadyExist:
             return "Path already exist!"
         case let .pathInvalid(path):
-            return "Path \(path) have invalid format!"
+            return "Path \"\(path)\" have invalid format!. First char must be \"/\" and use only lowercased alphabet and (-)."
         }
     }
-
-    /**
-        A textual representation of the error for debugging purposes.
-     
-        - Returns:
-            The same human-readable description as `description`.
-     */
+    
     public var debugDescription: String {
         return description
     }

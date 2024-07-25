@@ -1,0 +1,6 @@
+framework module PenguinUtilities {
+  umbrella header "PenguinUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

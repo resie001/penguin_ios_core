@@ -4,6 +4,9 @@ platform :ios, '13.0'
 
 target 'PenguinCore_Example' do
   pod 'PenguinRouting', :path => '../PenguinRouting.podspec'
+  pod 'PenguinUtilities', :path => '../PenguinUtilities.podspec'
+  
+  pod 'SnapKit'
 
   target 'PenguinCore_Tests' do
     inherit! :search_paths

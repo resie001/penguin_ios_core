@@ -18,12 +18,16 @@ final class PenguinRouterRegistry {
             fatalError(PenguinRouterError.routerNameEmpty.description)
         }
         
-        guard hasDuplicates(in: router.paths) else {
+        guard hasDuplicates(in: router.paths) == false else {
             fatalError(PenguinRouterError.pathAlreadyExist.description)
         }
         
+        guard isRouterValidInput(router.name) else {
+            fatalError(PenguinRouterError.routerNameInvalid(name: router.name).description)
+        }
+        
         router.paths.forEach {
-            guard isValidInput($0) else {
+            guard isPathValidInput($0) else {
                 fatalError(PenguinRouterError.pathInvalid(path: $0).description)
             }
         }
@@ -59,8 +63,14 @@ final class PenguinRouterRegistry {
         return false
     }
     
-    func isValidInput(_ input: String) -> Bool {
-        let pattern = "^(?!-)[a-zA-Z/\\-]*(?!.*[/]{2})(?!.*[-]{2})(?<![-/])[^\\s]*$"
+    func isRouterValidInput(_ input: String) -> Bool {
+        let pattern = "^(?!-)[a-z/\\-]*(?!.*[/]{2})(?!.*[-]{2})(?<![-/])[^\\s]*$"
+        let regexTest = NSPredicate(format: "SELF MATCHES %@", pattern)
+        return regexTest.evaluate(with: input)
+    }
+    
+    func isPathValidInput(_ input: String) -> Bool {
+        let pattern = #"^/(?!-)[a-z/\\-]*(?!.*//)(?!.*--)(?<![-/])[^\\s]*$"#
         let regexTest = NSPredicate(format: "SELF MATCHES %@", pattern)
         return regexTest.evaluate(with: input)
     }

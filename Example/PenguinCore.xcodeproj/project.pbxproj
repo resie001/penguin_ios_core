@@ -11,10 +11,16 @@
 		467D3C98F2023220BE17127E /* Pods_PenguinCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462AD19B4CAB3E75181B94CF /* Pods_PenguinCore_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BE5E67182C4E3C2500645AFE /* GlobalPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67172C4E3C2500645AFE /* GlobalPath.swift */; };
+		BE5E67422C52312800645AFE /* RoutingBasicCompletionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673B2C52312800645AFE /* RoutingBasicCompletionVC.swift */; };
+		BE5E67432C52312800645AFE /* RoutingBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673C2C52312800645AFE /* RoutingBasicVC.swift */; };
+		BE5E67442C52312800645AFE /* RoutingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673D2C52312800645AFE /* RoutingCoordinator.swift */; };
+		BE5E67452C52312800645AFE /* RoutingCustomCompletionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673E2C52312800645AFE /* RoutingCustomCompletionVC.swift */; };
+		BE5E67462C52312800645AFE /* RoutingHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673F2C52312800645AFE /* RoutingHomeVC.swift */; };
+		BE5E67472C52312800645AFE /* RoutingParameterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67402C52312800645AFE /* RoutingParameterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PenguinCore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenguinCore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +52,13 @@
 		64C18A855D66BF6601EB3CD3 /* Pods-PenguinCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PenguinCore_Tests/Pods-PenguinCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		857E3BE40CBE29EB33781247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86C2543C6622418541B9AF47 /* Pods-PenguinCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenguinCore_Example.release.xcconfig"; path = "Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE5E67172C4E3C2500645AFE /* GlobalPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPath.swift; sourceTree = "<group>"; };
+		BE5E673B2C52312800645AFE /* RoutingBasicCompletionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingBasicCompletionVC.swift; sourceTree = "<group>"; };
+		BE5E673C2C52312800645AFE /* RoutingBasicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingBasicVC.swift; sourceTree = "<group>"; };
+		BE5E673D2C52312800645AFE /* RoutingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingCoordinator.swift; sourceTree = "<group>"; };
+		BE5E673E2C52312800645AFE /* RoutingCustomCompletionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingCustomCompletionVC.swift; sourceTree = "<group>"; };
+		BE5E673F2C52312800645AFE /* RoutingHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingHomeVC.swift; sourceTree = "<group>"; };
+		BE5E67402C52312800645AFE /* RoutingParameterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingParameterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +105,13 @@
 		607FACD21AFB9204008FA782 /* Example for PenguinCore */ = {
 			isa = PBXGroup;
 			children = (
+				BE5E67412C52312800645AFE /* Routing */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				BE5E67172C4E3C2500645AFE /* GlobalPath.swift */,
 			);
 			name = "Example for PenguinCore";
 			path = PenguinCore;
@@ -148,6 +161,27 @@
 				4EBBADB75EA2B3FCE84BBD30 /* Pods-PenguinCore_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE5E67412C52312800645AFE /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E67492C5231C500645AFE /* Custom Routing */,
+				BE5E673B2C52312800645AFE /* RoutingBasicCompletionVC.swift */,
+				BE5E673C2C52312800645AFE /* RoutingBasicVC.swift */,
+				BE5E673D2C52312800645AFE /* RoutingCoordinator.swift */,
+				BE5E673E2C52312800645AFE /* RoutingCustomCompletionVC.swift */,
+				BE5E673F2C52312800645AFE /* RoutingHomeVC.swift */,
+				BE5E67402C52312800645AFE /* RoutingParameterVC.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		BE5E67492C5231C500645AFE /* Custom Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Routing";
 			sourceTree = "<group>";
 		};
 		F1F11A35596BD31CF724C107 /* Frameworks */ = {
@@ -246,7 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -292,10 +325,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PenguinCore_Example/Pods-PenguinCore_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PenguinRouting/PenguinRouting.framework",
+				"${BUILT_PRODUCTS_DIR}/PenguinUtilities/PenguinUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PenguinRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PenguinUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5E67432C52312800645AFE /* RoutingBasicVC.swift in Sources */,
+				BE5E67462C52312800645AFE /* RoutingHomeVC.swift in Sources */,
+				BE5E67182C4E3C2500645AFE /* GlobalPath.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BE5E67452C52312800645AFE /* RoutingCustomCompletionVC.swift in Sources */,
+				BE5E67472C52312800645AFE /* RoutingParameterVC.swift in Sources */,
+				BE5E67422C52312800645AFE /* RoutingBasicCompletionVC.swift in Sources */,
+				BE5E67442C52312800645AFE /* RoutingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

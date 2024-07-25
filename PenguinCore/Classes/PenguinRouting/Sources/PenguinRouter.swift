@@ -11,22 +11,37 @@ import Foundation
 public protocol PenguinRouter {
     static var name: String { get }
     static var paths: [String] { get }
-    func route(path: String)
+    func route(path: String) -> UIViewController
 }
 
 open class PenguinCoordinator: NSObject {
     public var navigationController: UINavigationController
-    public var completion: ((Result<Data, Error>) -> Void)?
+    public var completion: ((Result<Data, PenguinRouterError>) -> Void)?
     public var arguments: [String: Any]?
     
     public required init(
         navigationController: UINavigationController,
         arguments: [String: Any]? = nil,
-        completion: ((Result<Data, Error>) -> Void)? = nil
+        completion: ((Result<Data, PenguinRouterError>) -> Void)? = nil
     ) {
         self.navigationController = navigationController
         self.arguments = arguments
         self.completion = completion
+    }
+}
+
+public protocol PenguinCoordinatorVCProtocol: AnyObject {
+    associatedtype Coordinator
+    var coordinator: Coordinator? { get set }
+    static func create(coordinator: Coordinator) -> Self
+}
+
+public extension PenguinCoordinatorVCProtocol where Self: UIViewController {
+    var coordinator: Coordinator? { nil }
+    static func create(coordinator: Coordinator) -> Self {
+        let vc = Self()
+        vc.coordinator = coordinator
+        return vc
     }
 }
 

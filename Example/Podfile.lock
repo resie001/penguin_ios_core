@@ -1,16 +1,28 @@
 PODS:
   - PenguinRouting (1.0.0-dev)
+  - PenguinUtilities (1.0.0-dev)
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - PenguinRouting (from `../PenguinRouting.podspec`)
+  - PenguinUtilities (from `../PenguinUtilities.podspec`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   PenguinRouting:
     :path: "../PenguinRouting.podspec"
+  PenguinUtilities:
+    :path: "../PenguinUtilities.podspec"
 
 SPEC CHECKSUMS:
   PenguinRouting: db58d02a3bf0b53298ffac3b666850c590b01881
+  PenguinUtilities: 125910754df23e2541a5d373d950ae8f04ee24c8
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 545dd614795355f11e586529273d85009490d74b
+PODFILE CHECKSUM: b34e41be082ccfc0f345febf8aac822da7b2f1f9
 
 COCOAPODS: 1.15.2
