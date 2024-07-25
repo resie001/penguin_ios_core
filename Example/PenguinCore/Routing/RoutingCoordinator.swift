@@ -35,7 +35,7 @@ public final class RoutingCoordinator: PenguinRouterCoordinator {
     public static var name: String = GlobalPath.routing.description
     public static var paths: [String] = RoutingPath.allCasesAsString
     
-    public func route(path: String) -> UIViewController {
+    public func route(path: String) {
         let vc: UIViewController
         
         switch path.lowercased() {
@@ -58,6 +58,6 @@ public final class RoutingCoordinator: PenguinRouterCoordinator {
             fatalError(PenguinRouterError.pathNotExist.description)
         }
         
-        return vc
+        navigationController.pushViewController(vc, animated: true)
     }
 }

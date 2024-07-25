@@ -11,7 +11,7 @@ import Foundation
 public protocol PenguinRouter {
     static var name: String { get }
     static var paths: [String] { get }
-    func route(path: String) -> UIViewController
+    func route(path: String)
 }
 
 open class PenguinCoordinator: NSObject {

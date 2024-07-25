@@ -11,104 +11,107 @@
 		0AD7A0DA8FF5880E3D8599062129AB12 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ACFFCC108574621D81B37BF15FE69 /* ConstraintMakerEditable.swift */; };
 		0D665B6767B345D8C70D7E029A2A48D8 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAD86B1B333E5C3BB2F6BBB774040C /* ConstraintViewDSL.swift */; };
 		0DA9A9D2F8960818017E26DA480FA143 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE860CC123108C310F139114E0B2E6B /* ConstraintLayoutGuideDSL.swift */; };
+		104615C69534559C49A5B3CBE783A55D /* PenguinUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7E2FDC6E38FAD2726847BE76F92215 /* PenguinUtilities-dummy.m */; };
 		13CC0CFB1C56F23BBC872801F983C1A3 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF511486018B445B9C0B5E032FDFEC /* ConstraintLayoutSupport.swift */; };
 		15F68E09ADCDB843B938C490059485BD /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEFD662A8681CE6BEA3E6130106B66 /* ConstraintMakerRelatable+Extensions.swift */; };
 		1E7E37C51375285EA22294CD2ADB3159 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07559631FE7F3C9A44AEFE2792C6950E /* Debugging.swift */; };
-		296F8E7E018160C21789ECF4660F7AA1 /* Ext+Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8333AFF91EC09DBE9E25E936C66DA7 /* Ext+Dict.swift */; };
-		2985A29DD088EFF0617A4B87D9DCA8C8 /* Ext+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC16974ECB56F4B0B7BD143ED9901E5 /* Ext+Data.swift */; };
-		2F522324235A416A24571A67156A02B0 /* PenguinRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64D9BCD2AA4226E725568248F9BC67 /* PenguinRouting.swift */; };
+		296F8E7E018160C21789ECF4660F7AA1 /* Ext+Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50FE207A61B77B057509F23D1BB74D /* Ext+Dict.swift */; };
+		2985A29DD088EFF0617A4B87D9DCA8C8 /* Ext+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0C88542ABE6B0B5866E37D51C7D77 /* Ext+Data.swift */; };
+		2F522324235A416A24571A67156A02B0 /* PenguinRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263D94B2FA37A5B75F4C7C473F3DA38 /* PenguinRouting.swift */; };
+		34907854ADD9DCF1FC54C00E443B638F /* PenguinBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A14D5A77FC9917EAC638936AC0A918 /* PenguinBaseVC.swift */; };
 		3DAFEDCDC5094007E329D71FE84FF704 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A81458FFE100E677B8192E5A85EC4D35 /* SnapKit-dummy.m */; };
+		48F7F204E71E2A1B64C63326101B5EFE /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BBC56FA7A2E6DFED5599E80F01BBF /* Ext+UIViewController.swift */; };
 		495DA02A1D2B96C52AE70934DDDF754A /* Pods-PenguinCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFA4141E73FB714B08174EA25D1DF8 /* Pods-PenguinCore_Example-dummy.m */; };
 		4AEF1FF752D3DAE34F8C3B0699A94B54 /* Pods-PenguinCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35495E3C7BA6DD1CA7F69C4F34FA577 /* Pods-PenguinCore_Tests-dummy.m */; };
 		50E4E24710A4C5A77BE6594A10DFE773 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5EC23085708C56164D766EB38852D /* ConstraintMultiplierTarget.swift */; };
-		5117BE2A8110CF71D7B517F6BD8283A5 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3549702FF764A1F5133FEFFF5BD4D /* Ext+String.swift */; };
+		5117BE2A8110CF71D7B517F6BD8283A5 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF25E4622DF37A24625F76F554FF197 /* Ext+String.swift */; };
 		56CD198002D3D45274F6719725B983CF /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774B32E781F6B920DF58C6A82D3DD58 /* ConstraintOffsetTarget.swift */; };
-		5DB6C61A0CDA631799C3DFB58A8CC25F /* PenguinRouting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4D98D0C7CDA0BFC23FA2676151957 /* PenguinRouting-dummy.m */; };
+		5DB6C61A0CDA631799C3DFB58A8CC25F /* PenguinRouting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 309531587DDB14D0030308C397FF8439 /* PenguinRouting-dummy.m */; };
 		6431218578A566C5EBF5FD166F164059 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD05EFF6B30C486BAC64396881FA468 /* ConstraintMakerExtendable.swift */; };
-		69F2AC78BFCAC810ABF8D7D4A58C014A /* PenguinBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EA7A3D74772138AC18A93A7C44EA4 /* PenguinBaseVC.swift */; };
 		6D389E4D5F97798BE1AEEB8C317852D7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D29E7DCF71E39255CA4CFD9DC2DC6E /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E2884B29CD49EE91C48C725105F295A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A24BC2FBA605AE31A7DD00C77A1AFC /* LayoutConstraint.swift */; };
-		704F21CC3327FD96A97F645B9A99802A /* Ext+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF509C03CDF747D6F6778428434F07B /* Ext+Bool.swift */; };
+		704F21CC3327FD96A97F645B9A99802A /* Ext+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9F9CD86A8C54EE4D03599B1FA3508 /* Ext+Bool.swift */; };
 		7052944C657F270E47777446D0E10E1C /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ACA4B6048BB2B76545899932AC73D /* ConstraintInsetTarget.swift */; };
 		73F8AC99A58E5837924C056E89543B97 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29359F9733D1045A34DE64FC936D3266 /* Typealiases.swift */; };
 		77D782DE125D322922466676E2FFA289 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63822BEC8D04268A6B667741C17C19 /* ConstraintPriorityTarget.swift */; };
 		79191702B343BD0DBC0E1C260B6BDB4A /* Pods-PenguinCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55656CE866ABDD58955CE29C0765D778 /* Pods-PenguinCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		794F5712F3E29716627E8577FF11EC81 /* Ext+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C565FD37C6309EE8C105335ECA8E094 /* Ext+UIApplication.swift */; };
-		7E88F04E1D8A923E718EAFBEE7B7E4F9 /* PenguinUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D062D273FA04AF6C0A3664267FD1E5 /* PenguinUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		823F8AB561C40DD9E9BCDA2FD40F0456 /* PenguinParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE35BDBF8D7DBB154A31B60C222AAAF /* PenguinParameter.swift */; };
-		84F374ABC4EC415ACBA4276BB51B810F /* PenguinNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A089B575AB79D29331F8663A8A03E /* PenguinNavController.swift */; };
+		794F5712F3E29716627E8577FF11EC81 /* Ext+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278090C315E4127CCD23FC44F510D7C2 /* Ext+UIApplication.swift */; };
+		79BDE91D3D8F614E4536E94AC0081550 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC9963B7020BFFB64F4E063D4E69CA /* Color.swift */; };
+		823F8AB561C40DD9E9BCDA2FD40F0456 /* PenguinParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6A474CB9CC35457C2B80E52C9D5583 /* PenguinParameter.swift */; };
+		84F374ABC4EC415ACBA4276BB51B810F /* PenguinNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96764CCA3AAB9CB1BC85CB7B7583CFF9 /* PenguinNavController.swift */; };
+		851190260C9027041F92C2278E2534BD /* PenguinUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B7BFDB0342885E533151E08C6D598A /* PenguinUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8640829049AE9907FE93825E5510C33D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CA2578D79E7761A2FA38941388BB2D /* ConstraintMaker.swift */; };
 		87996D11DC92EE19EAF9305DAEA4ACF2 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A18FA6A441F4891049EB19068AB0E /* ConstraintMakerPrioritizable.swift */; };
 		8868BA37E3CE7C58D26123806D543F3F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84828FF166FB07F13A97638DFC5C233 /* ConstraintView.swift */; };
 		891D1BF14C8881C74262EE9DBE5D67A9 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825AB4712E9199C7E3D534D47F877FE9 /* UILayoutSupport+Extensions.swift */; };
-		8C3A9582B3231A013227903EB0A45B4D /* Ext+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F0ABC0FA6024087C85A0868A5263C /* Ext+Int.swift */; };
-		8CB1CB668743672C65E25C2698B2F52C /* PenguinRouting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1DEBBA2EC7A35E3C14EA15B3B180FC /* PenguinRouting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3A9582B3231A013227903EB0A45B4D /* Ext+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4797D2A478E61984CDB9AC296E6BE1 /* Ext+Int.swift */; };
+		8CB1CB668743672C65E25C2698B2F52C /* PenguinRouting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5721D1758B4C17503F5E06BAB20524C /* PenguinRouting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905485A2B0255F59D87FAF1B101BDCFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		906EF891E58A035281766993F82373E3 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B94BC18A56788D484421001BD348C7 /* ConstraintItem.swift */; };
-		917D3E6FC3E3C6DA5FAB4072987DD8EA /* PenguinRouterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F9A45B8F645FD5C35DA864E1D9CC60 /* PenguinRouterRegistry.swift */; };
+		917D3E6FC3E3C6DA5FAB4072987DD8EA /* PenguinRouterRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3C0D7B2D9897471025CF8732377F6 /* PenguinRouterRegistry.swift */; };
 		938CFF5F6DE6E7E8CE94373E51F3E07A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E15D26AF894D0C156E313C56823356 /* ConstraintLayoutGuide+Extensions.swift */; };
 		950B809760A8CE4375DCE1016FB9859F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2C8D1AB2F537B31A5FEE4C906A8B5 /* ConstraintMakerRelatable.swift */; };
 		9779D52AD8CDA703D6EEE1C6D38E019F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E253F490710097A8A176C3141E5C7A6 /* ConstraintAttributes.swift */; };
 		A0371DF7D93D9B86BD50474D4B9294FD /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D357C396EF80AF02117C256B9F52DC15 /* ConstraintInsets.swift */; };
 		A051999781E1280746F7743BDEEA6C49 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A977608F42FD0EA87CB4A76AEAF838 /* ConstraintDescription.swift */; };
+		A1C903172CF5A837E812FFDAF69D2A20 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */; };
 		A35877DE0C3D6B4CF2A10E666EF5F490 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C0A2BEB91F4B17FBCDFCFC98A2A1A0 /* LayoutConstraintItem.swift */; };
 		B133BB9C9B03481C7F1D221F35A617F2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38207E5196EEDEA0FB62FD2F1E7DBF /* Constraint.swift */; };
 		B3F75D115D5150C258F5E68404751010 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */; };
 		B4F9C9EC1B3F1689AE56BB719AE5439C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */; };
-		B525D797360EBDA7E9FB0659EA809AFE /* Ext+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000A9076B65204999BBB1438CA5DFEBD /* Ext+Float.swift */; };
+		B525D797360EBDA7E9FB0659EA809AFE /* Ext+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3932E9FA6F8E50C66F3BEF1FA5A66D35 /* Ext+Float.swift */; };
 		B66368B8CCA167A00AECAF668D849075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BA370744896CBC115F3ADD6FBE1D198F /* PenguinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B79F403D22AA184C2DD7C2E44EAEE /* PenguinRouter.swift */; };
+		BA370744896CBC115F3ADD6FBE1D198F /* PenguinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677817AC7E35F76EFEC2B30F6BD3EE9E /* PenguinRouter.swift */; };
 		BE355F69F84788D334FDAC7D1CD9B8C4 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */; };
+		BE5E67562C524C0700645AFE /* Ext+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67552C524C0700645AFE /* Ext+UIApplication.swift */; };
+		BE5E67582C524D0300645AFE /* Ext+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67572C524D0300645AFE /* Ext+UIColor.swift */; };
 		BF567AEFDD52DC43AC75122734D571E2 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFAAE062D36FE3EEC07D4C25471282 /* ConstraintMakerFinalizable.swift */; };
 		C04DBE6AE13FC5CFD01D363A351EF76A /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319019DC58A68C736F6001CC6E6B691A /* ConstraintView+Extensions.swift */; };
 		C7E343559158D03F717C616F79FAA006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CAD703C43F9B73B63DFAE15353CF5575 /* PenguinUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA07100C0CA70C957167986FDAB4F5 /* PenguinUtilities-dummy.m */; };
 		D091D9EA20CEB92609BF1E622E8CA348 /* SnapKit-SnapKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */; };
 		D1824F74E7E7CD4F3A71D5066B126049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D3D99CA5B1BC700F9F3CCECBA9C07959 /* PenguinPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6654CC3D2CA5F5ADCBA781B67A9ED8 /* PenguinPath.swift */; };
-		D8B9A2D2FD311BD1BD298013E768B7BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3D99CA5B1BC700F9F3CCECBA9C07959 /* PenguinPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11C55509FB73D11B79FB4E0784B16B2 /* PenguinPath.swift */; };
 		D92AEF78B87F929D88D5C876ABBAD79A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF88BE961B69DA6A3F297E6A5895AF /* ConstraintLayoutSupportDSL.swift */; };
 		E5E3A4C52D38978E5B43EEFB005B3799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E730B00985C6E976C7ECFFA316C2B22E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */; };
 		E94B31DCAF75D93405D3BAE188604EB2 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1976F627EA9706470FA5B5DB72F7B74D /* ConstraintConfig.swift */; };
-		EC450E088274FD62E0139DD0C015A8F4 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5283775FCB5DF79E63BDB4F0979A94 /* Ext+UIViewController.swift */; };
 		EFC90283F9AB43BB6FF377812BD3673F /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2626FD4813CB2F42DD9DF34915C2C /* ConstraintPriority.swift */; };
 		F366D04DEA0EBBCA9CA4F1F4E29695E8 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F818A3A4208AE38575EECDB7ED252C0 /* ConstraintDSL.swift */; };
 		F38A553317B890FE0FA42B73258F341A /* Pods-PenguinCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBCE288366D95BC8C0A9AC5768D34A1 /* Pods-PenguinCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F94703ED86C58DDBE5A2503D148CD040 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92009AE551F69C62EB53474824532343 /* ConstraintRelation.swift */; };
-		FEECF475D8864BCF7116D64B14FE32F5 /* PenguinRouterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5975844D278216EADBE7DEDF62E10B /* PenguinRouterError.swift */; };
+		FEECF475D8864BCF7116D64B14FE32F5 /* PenguinRouterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9243157989BE24E44E28A9EAF7387916 /* PenguinRouterError.swift */; };
 		FFD7E1B8FA0F3960BE24DA2D20647332 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24071568138D1626C9257C7CF24D1E5 /* ConstraintRelatableTarget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04E865DE5C99910D84C10EDD734183AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2D43789931B9C2F6268469E271407E7;
-			remoteInfo = "Pods-PenguinCore_Example";
-		};
-		0CD9E961E5C0839E49A69FAC2A9453C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EF720D96DEB19CB7C40A7ABD7E151B9;
-			remoteInfo = PenguinUtilities;
-		};
-		48343E7450085D6EF8A09C2944930A98 /* PBXContainerItemProxy */ = {
+		085D1F8A313689DF80569EF1718DE35A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		7106D6F7F4A6F24F79737A4B4C449382 /* PBXContainerItemProxy */ = {
+		804E9D1C11FBFA75A83E1C2AD81DB6CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
 			remoteInfo = "SnapKit-SnapKit_Privacy";
 		};
-		BCB3D304F49F2522FFBC88C3FDE9E77F /* PBXContainerItemProxy */ = {
+		8C24D04F8C60930E4C7964CA2F743834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF720D96DEB19CB7C40A7ABD7E151B9;
+			remoteInfo = PenguinUtilities;
+		};
+		B08E7281A5B8CDEF34FE0B4C6A27B37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D43789931B9C2F6268469E271407E7;
+			remoteInfo = "Pods-PenguinCore_Example";
+		};
+		C630A754A1F9A10DC2DF573E7C8C6648 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -118,110 +121,113 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000A9076B65204999BBB1438CA5DFEBD /* Ext+Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Float.swift"; sourceTree = "<group>"; };
 		02FFA4141E73FB714B08174EA25D1DF8 /* Pods-PenguinCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinCore_Example-dummy.m"; sourceTree = "<group>"; };
 		07559631FE7F3C9A44AEFE2792C6950E /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
-		08AB97F49A2F71D38C4D2793209CA7C7 /* PenguinRouting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PenguinRouting-Info.plist"; sourceTree = "<group>"; };
 		0D729AC1B27F22C691ACEA22BF0635E4 /* Pods-PenguinCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E253F490710097A8A176C3141E5C7A6 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		11020209DE91D3218B8F34AA08CFEC77 /* PenguinRouting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PenguinRouting.modulemap; sourceTree = "<group>"; };
 		183573F80869BC82EEB9720719CDF42F /* Pods-PenguinCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1976F627EA9706470FA5B5DB72F7B74D /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		1A7A18FA6A441F4891049EB19068AB0E /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
-		1A8F3038317C0367C827A2339B80F9D1 /* PenguinUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinUtilities.release.xcconfig; sourceTree = "<group>"; };
 		1BFF88BE961B69DA6A3F297E6A5895AF /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		1C64D9BCD2AA4226E725568248F9BC67 /* PenguinRouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouting.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouting.swift; sourceTree = "<group>"; };
+		1CF25E4622DF37A24625F76F554FF197 /* Ext+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		1FEAD86B1B333E5C3BB2F6BBB774040C /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		278090C315E4127CCD23FC44F510D7C2 /* Ext+UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+UIApplication.swift"; sourceTree = "<group>"; };
+		27979ADBBB66BDAF99688F5CC5731408 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		29359F9733D1045A34DE64FC936D3266 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		2A4797D2A478E61984CDB9AC296E6BE1 /* Ext+Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Int.swift"; sourceTree = "<group>"; };
 		2E0ACFFCC108574621D81B37BF15FE69 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		2F818A3A4208AE38575EECDB7ED252C0 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		309531587DDB14D0030308C397FF8439 /* PenguinRouting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PenguinRouting-dummy.m"; sourceTree = "<group>"; };
 		30ABE474C654EC0F46F277340D62C766 /* Pods-PenguinCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Tests-Info.plist"; sourceTree = "<group>"; };
 		319019DC58A68C736F6001CC6E6B691A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		3263D94B2FA37A5B75F4C7C473F3DA38 /* PenguinRouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouting.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouting.swift; sourceTree = "<group>"; };
+		328CA10D005D9685567843BFE379FA42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		33B7BFDB0342885E533151E08C6D598A /* PenguinUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinUtilities-umbrella.h"; sourceTree = "<group>"; };
 		3459F861907BA533BF6147C194324302 /* PenguinRouting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PenguinRouting; path = PenguinRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3932E9FA6F8E50C66F3BEF1FA5A66D35 /* Ext+Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Float.swift"; sourceTree = "<group>"; };
 		3CCFAAE062D36FE3EEC07D4C25471282 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		3CF2626FD4813CB2F42DD9DF34915C2C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		3DD05EFF6B30C486BAC64396881FA468 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		3ED4D98D0C7CDA0BFC23FA2676151957 /* PenguinRouting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PenguinRouting-dummy.m"; sourceTree = "<group>"; };
 		3EDB8917DFF65A02D4E55E569CD63882 /* Pods-PenguinCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3FAA07100C0CA70C957167986FDAB4F5 /* PenguinUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PenguinUtilities-dummy.m"; sourceTree = "<group>"; };
-		4419BB18F271F28D8FAA9A271817353C /* PenguinUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinUtilities-prefix.pch"; sourceTree = "<group>"; };
 		49D6C4D28799F2CAB8D2F3E77F85D0F6 /* Pods-PenguinCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A5283775FCB5DF79E63BDB4F0979A94 /* Ext+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
-		53A4A2452E7054E42005D87AF4570ABE /* PenguinRouting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PenguinRouting.modulemap; sourceTree = "<group>"; };
-		54A9137ACF7602942FDE03D77174C061 /* PenguinRouting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-prefix.pch"; sourceTree = "<group>"; };
+		51CB17B9A6CD0330A18A3F4841D75E3F /* PenguinRouting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PenguinRouting-Info.plist"; sourceTree = "<group>"; };
+		55024A6D4484DBC851B44FABD36F930F /* PenguinRouting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.release.xcconfig; sourceTree = "<group>"; };
 		55656CE866ABDD58955CE29C0765D778 /* Pods-PenguinCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PenguinCore_Example-umbrella.h"; sourceTree = "<group>"; };
-		56371BDBB9152E429987BF1870AC66D0 /* PenguinRouting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.debug.xcconfig; sourceTree = "<group>"; };
+		59A14D5A77FC9917EAC638936AC0A918 /* PenguinBaseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PenguinBaseVC.swift; sourceTree = "<group>"; };
 		59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		5BCF511486018B445B9C0B5E032FDFEC /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		5C565FD37C6309EE8C105335ECA8E094 /* Ext+UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+UIApplication.swift"; sourceTree = "<group>"; };
 		5EBCE288366D95BC8C0A9AC5768D34A1 /* Pods-PenguinCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PenguinCore_Tests-umbrella.h"; sourceTree = "<group>"; };
 		61A977608F42FD0EA87CB4A76AEAF838 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
-		63D062D273FA04AF6C0A3664267FD1E5 /* PenguinUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinUtilities-umbrella.h"; sourceTree = "<group>"; };
 		64A6CA402F458FF2A435E55BBD57CC0C /* Pods-PenguinCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PenguinCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64B94BC18A56788D484421001BD348C7 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		64C4EE0776D813F8963268A978FDAAD7 /* ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist"; sourceTree = "<group>"; };
-		6941CD2F93A5A3C6657DFB99D0D7D383 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		677817AC7E35F76EFEC2B30F6BD3EE9E /* PenguinRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouter.swift; sourceTree = "<group>"; };
 		7151AA3EBE404CF0EE0F95E6E4D54301 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		76CA2578D79E7761A2FA38941388BB2D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		7AD43125E693677186AE4719BE3DB0FB /* PenguinUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinUtilities.release.xcconfig; sourceTree = "<group>"; };
 		7C38207E5196EEDEA0FB62FD2F1E7DBF /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
-		820D400C88FF4E2EF02FC32D1943E6F2 /* PenguinUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PenguinUtilities-Info.plist"; sourceTree = "<group>"; };
+		7DE1028DEA164DE46D7BCC9FFCF4FB43 /* PenguinUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PenguinUtilities.modulemap; sourceTree = "<group>"; };
+		81C562BE0FE64E64625B1B8DE1AF9947 /* PenguinRouting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PenguinRouting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		825AB4712E9199C7E3D534D47F877FE9 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		830735F69E16CDFA1B9C9E8F52C8AC2D /* PenguinUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinUtilities-prefix.pch"; sourceTree = "<group>"; };
 		86FEFD662A8681CE6BEA3E6130106B66 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
-		8BADF09680467E70C5F19F64A093C9AE /* PenguinRouting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PenguinRouting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8C8333AFF91EC09DBE9E25E936C66DA7 /* Ext+Dict.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Dict.swift"; sourceTree = "<group>"; };
-		8F2B79F403D22AA184C2DD7C2E44EAEE /* PenguinRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouter.swift; sourceTree = "<group>"; };
 		92009AE551F69C62EB53474824532343 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
-		93C6DC94131F8D99B7D4618F0DD0747B /* PenguinRouting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.release.xcconfig; sourceTree = "<group>"; };
+		9243157989BE24E44E28A9EAF7387916 /* PenguinRouterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterError.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterError.swift; sourceTree = "<group>"; };
+		92D3C0D7B2D9897471025CF8732377F6 /* PenguinRouterRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterRegistry.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterRegistry.swift; sourceTree = "<group>"; };
 		94C0A2BEB91F4B17FBCDFCFC98A2A1A0 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		963944E6299D6A1C9C9B78766E342F50 /* PenguinUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PenguinUtilities.modulemap; sourceTree = "<group>"; };
+		95EE9B1C2207BCC4F17F8ED8848A171D /* PenguinUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PenguinUtilities-Info.plist"; sourceTree = "<group>"; };
+		96764CCA3AAB9CB1BC85CB7B7583CFF9 /* PenguinNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinNavController.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinNavController.swift; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		999214D76BC7504D4FFD8B3B0D3FF232 /* PenguinUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PenguinUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F46BB30C60B78189ECDFAE475E89857 /* PenguinRouting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-prefix.pch"; sourceTree = "<group>"; };
 		9FE5EC23085708C56164D766EB38852D /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		A04E1C75ACC247EC695AC2725EBFA5D6 /* Pods-PenguinCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PenguinCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		A2D29E7DCF71E39255CA4CFD9DC2DC6E /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		A45EA7A3D74772138AC18A93A7C44EA4 /* PenguinBaseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PenguinBaseVC.swift; sourceTree = "<group>"; };
+		A42BBC56FA7A2E6DFED5599E80F01BBF /* Ext+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
 		A4B6622120840BE852FCE423665C8100 /* Pods-PenguinCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Example-Info.plist"; sourceTree = "<group>"; };
 		A81458FFE100E677B8192E5A85EC4D35 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		A84828FF166FB07F13A97638DFC5C233 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		AAC16974ECB56F4B0B7BD143ED9901E5 /* Ext+Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Data.swift"; sourceTree = "<group>"; };
-		AAFCD3317FBEC3E22CFEDBE10B87FE1A /* PenguinUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PenguinUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE0ACA4B6048BB2B76545899932AC73D /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		AF5975844D278216EADBE7DEDF62E10B /* PenguinRouterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterError.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterError.swift; sourceTree = "<group>"; };
-		AFE3549702FF764A1F5133FEFFF5BD4D /* Ext+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		B11C55509FB73D11B79FB4E0784B16B2 /* PenguinPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinPath.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinPath.swift; sourceTree = "<group>"; };
 		B5160BB353D53B94AFEEF18F70920800 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		B5721D1758B4C17503F5E06BAB20524C /* PenguinRouting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-umbrella.h"; sourceTree = "<group>"; };
+		B780DAC9C313125578D4067D9A5BEAC6 /* PenguinUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinUtilities.debug.xcconfig; sourceTree = "<group>"; };
 		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF509C03CDF747D6F6778428434F07B /* Ext+Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Bool.swift"; sourceTree = "<group>"; };
 		BCE860CC123108C310F139114E0B2E6B /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		BE5E67552C524C0700645AFE /* Ext+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIApplication.swift"; sourceTree = "<group>"; };
+		BE5E67572C524D0300645AFE /* Ext+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIColor.swift"; sourceTree = "<group>"; };
 		C24071568138D1626C9257C7CF24D1E5 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		C35495E3C7BA6DD1CA7F69C4F34FA577 /* Pods-PenguinCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PenguinCore_Tests-dummy.m"; sourceTree = "<group>"; };
-		C45F0ABC0FA6024087C85A0868A5263C /* Ext+Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Int.swift"; sourceTree = "<group>"; };
 		C707BE74C0C41BDC8CFC2DE05BCCAFBA /* Pods-PenguinCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7FCE4D3AF6BA9AFEEAA74864F765CA3 /* PenguinUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PenguinUtilities; path = PenguinUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C86A089B575AB79D29331F8663A8A03E /* PenguinNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinNavController.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinNavController.swift; sourceTree = "<group>"; };
+		CC86749A8646DBD8438E9394E57750E3 /* PenguinRouting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinRouting.debug.xcconfig; sourceTree = "<group>"; };
 		CD1F40B8FD66C94F648F5CB6B1D4E025 /* Pods-PenguinCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PenguinCore_Tests"; path = Pods_PenguinCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDE9124363342ED94FFED61E5D34ED72 /* PenguinUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PenguinUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		CE50FE207A61B77B057509F23D1BB74D /* Ext+Dict.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Dict.swift"; sourceTree = "<group>"; };
 		CE71E2EB69F6134538EA4E8D7A0B794A /* Pods-PenguinCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PenguinCore_Example"; path = Pods_PenguinCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D357C396EF80AF02117C256B9F52DC15 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		D70AE1E6A3D114731702EC775696DEC4 /* Pods-PenguinCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PenguinCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D741CF68482D3B2668E95512583F68F8 /* Pods-PenguinCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PenguinCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C9F9CD86A8C54EE4D03599B1FA3508 /* Ext+Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Bool.swift"; sourceTree = "<group>"; };
 		D9A24BC2FBA605AE31A7DD00C77A1AFC /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
-		DD1DEBBA2EC7A35E3C14EA15B3B180FC /* PenguinRouting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PenguinRouting-umbrella.h"; sourceTree = "<group>"; };
+		DA6A474CB9CC35457C2B80E52C9D5583 /* PenguinParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinParameter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinParameter.swift; sourceTree = "<group>"; };
 		DE63822BEC8D04268A6B667741C17C19 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		DE7E2FDC6E38FAD2726847BE76F92215 /* PenguinUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PenguinUtilities-dummy.m"; sourceTree = "<group>"; };
 		E097647393EBA4FED92DC079C21089CB /* Pods-PenguinCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PenguinCore_Example.modulemap"; sourceTree = "<group>"; };
 		E617A6F40E8D5EA0D6A5379E4F83B53E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		E6B2C8D1AB2F537B31A5FEE4C906A8B5 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		E774B32E781F6B920DF58C6A82D3DD58 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		E7F9A45B8F645FD5C35DA864E1D9CC60 /* PenguinRouterRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinRouterRegistry.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinRouterRegistry.swift; sourceTree = "<group>"; };
 		ED33CCCA7A7AD3D2FC51F33BA49A695A /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		EEE35BDBF8D7DBB154A31B60C222AAAF /* PenguinParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinParameter.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinParameter.swift; sourceTree = "<group>"; };
+		F0C0C88542ABE6B0B5866E37D51C7D77 /* Ext+Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Ext+Data.swift"; sourceTree = "<group>"; };
+		F3DC9963B7020BFFB64F4E063D4E69CA /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F8CFC6EF52431B0285AB0928B45E14FA /* Pods-PenguinCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PenguinCore_Tests.modulemap"; sourceTree = "<group>"; };
 		F8E15D26AF894D0C156E313C56823356 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		FF6654CC3D2CA5F5ADCBA781B67A9ED8 /* PenguinPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PenguinPath.swift; path = PenguinCore/Classes/PenguinRouting/Sources/PenguinPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,11 +239,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21A9E5DE459B4EAC41B3423ECC9A1C7B /* Frameworks */ = {
+		3178EEA624D073C5884A89EB64D3960C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B9A2D2FD311BD1BD298013E768B7BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D48C2E15EB25E8B8287F8C6E841426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905485A2B0255F59D87FAF1B101BDCFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,13 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E343559158D03F717C616F79FAA006 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3A9104C4ED43E891160799DA73FEF75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,37 +290,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1078869DA053C327C04B12A4360E9AE5 /* PenguinRouting */ = {
+		1A790B1ED2B431DDE63AC2D6816C0101 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C86A089B575AB79D29331F8663A8A03E /* PenguinNavController.swift */,
-				EEE35BDBF8D7DBB154A31B60C222AAAF /* PenguinParameter.swift */,
-				FF6654CC3D2CA5F5ADCBA781B67A9ED8 /* PenguinPath.swift */,
-				8F2B79F403D22AA184C2DD7C2E44EAEE /* PenguinRouter.swift */,
-				AF5975844D278216EADBE7DEDF62E10B /* PenguinRouterError.swift */,
-				E7F9A45B8F645FD5C35DA864E1D9CC60 /* PenguinRouterRegistry.swift */,
-				1C64D9BCD2AA4226E725568248F9BC67 /* PenguinRouting.swift */,
-				64EB0204A5C820206127D5011EE95A9F /* Extensions */,
-				F787B95EA962B7E42135BAFC907F8EDA /* Pod */,
-				1DDE43C520A2BCE14CAE15FAA549364C /* Support Files */,
+				A42BBC56FA7A2E6DFED5599E80F01BBF /* Ext+UIViewController.swift */,
+				BE5E67552C524C0700645AFE /* Ext+UIApplication.swift */,
+				BE5E67572C524D0300645AFE /* Ext+UIColor.swift */,
+			);
+			name = Extensions;
+			path = PenguinCore/Classes/PenguinUtilities/Sources/Extensions;
+			sourceTree = "<group>";
+		};
+		296209A2181366901BD5E2D3987C7B9F /* PenguinRouting */ = {
+			isa = PBXGroup;
+			children = (
+				96764CCA3AAB9CB1BC85CB7B7583CFF9 /* PenguinNavController.swift */,
+				DA6A474CB9CC35457C2B80E52C9D5583 /* PenguinParameter.swift */,
+				B11C55509FB73D11B79FB4E0784B16B2 /* PenguinPath.swift */,
+				677817AC7E35F76EFEC2B30F6BD3EE9E /* PenguinRouter.swift */,
+				9243157989BE24E44E28A9EAF7387916 /* PenguinRouterError.swift */,
+				92D3C0D7B2D9897471025CF8732377F6 /* PenguinRouterRegistry.swift */,
+				3263D94B2FA37A5B75F4C7C473F3DA38 /* PenguinRouting.swift */,
+				B28974D2AD4B3FAE3954A181D9730D19 /* Extensions */,
+				8060BB4748E2C006A4228F07E0CF89BF /* Pod */,
+				B9FF26A91097087DE7480BFA29CDAE30 /* Support Files */,
 			);
 			name = PenguinRouting;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		1DDE43C520A2BCE14CAE15FAA549364C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				53A4A2452E7054E42005D87AF4570ABE /* PenguinRouting.modulemap */,
-				3ED4D98D0C7CDA0BFC23FA2676151957 /* PenguinRouting-dummy.m */,
-				08AB97F49A2F71D38C4D2793209CA7C7 /* PenguinRouting-Info.plist */,
-				54A9137ACF7602942FDE03D77174C061 /* PenguinRouting-prefix.pch */,
-				DD1DEBBA2EC7A35E3C14EA15B3B180FC /* PenguinRouting-umbrella.h */,
-				56371BDBB9152E429987BF1870AC66D0 /* PenguinRouting.debug.xcconfig */,
-				93C6DC94131F8D99B7D4618F0DD0747B /* PenguinRouting.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PenguinRouting";
 			sourceTree = "<group>";
 		};
 		2EDC69397FD6A3599BAEF1DCE6FCD2B6 /* Pods-PenguinCore_Tests */ = {
@@ -341,42 +343,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5DD02C85C7D6695BB2DC1ED4E6B24FFC /* PenguinUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				721A5127994A37970AEABFD923563E95 /* Extensions */,
-				AF8A3E39210F60B70F1ABD3102099382 /* Pod */,
-				83D66F029C9FFE640BC7D21F642025BC /* Protocols */,
-				C07AC052C648749581A3122780C5D10B /* Support Files */,
-			);
-			name = PenguinUtilities;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		61F33A9DAD1F37D80439F98C89DEAFFB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1078869DA053C327C04B12A4360E9AE5 /* PenguinRouting */,
-				5DD02C85C7D6695BB2DC1ED4E6B24FFC /* PenguinUtilities */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		64EB0204A5C820206127D5011EE95A9F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BAF509C03CDF747D6F6778428434F07B /* Ext+Bool.swift */,
-				AAC16974ECB56F4B0B7BD143ED9901E5 /* Ext+Data.swift */,
-				8C8333AFF91EC09DBE9E25E936C66DA7 /* Ext+Dict.swift */,
-				000A9076B65204999BBB1438CA5DFEBD /* Ext+Float.swift */,
-				C45F0ABC0FA6024087C85A0868A5263C /* Ext+Int.swift */,
-				AFE3549702FF764A1F5133FEFFF5BD4D /* Ext+String.swift */,
-				5C565FD37C6309EE8C105335ECA8E094 /* Ext+UIApplication.swift */,
-			);
-			name = Extensions;
-			path = PenguinCore/Classes/PenguinRouting/Sources/Extensions;
-			sourceTree = "<group>";
-		};
 		6910265504FC13368741C9A38A6880FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,30 +356,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		721A5127994A37970AEABFD923563E95 /* Extensions */ = {
+		6F0B68DA15B3093F1912EF18A555C412 /* PenguinUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				4A5283775FCB5DF79E63BDB4F0979A94 /* Ext+UIViewController.swift */,
+				1A790B1ED2B431DDE63AC2D6816C0101 /* Extensions */,
+				E25064128EB19C8268D5C62D5066C3BB /* Pod */,
+				B838065329217461F369E95A65CC201A /* Protocols */,
+				AE79BA21C7786BC52D903F795087D2F6 /* Support Files */,
+				AFDDCEE5DB26C8710E2C5D2BF26967FE /* Utils */,
 			);
-			name = Extensions;
-			path = PenguinCore/Classes/PenguinUtilities/Sources/Extensions;
+			name = PenguinUtilities;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		83D66F029C9FFE640BC7D21F642025BC /* Protocols */ = {
+		8060BB4748E2C006A4228F07E0CF89BF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A45EA7A3D74772138AC18A93A7C44EA4 /* PenguinBaseVC.swift */,
-			);
-			name = Protocols;
-			path = PenguinCore/Classes/PenguinUtilities/Sources/Protocols;
-			sourceTree = "<group>";
-		};
-		AF8A3E39210F60B70F1ABD3102099382 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AAFCD3317FBEC3E22CFEDBE10B87FE1A /* PenguinUtilities.podspec */,
+				328CA10D005D9685567843BFE379FA42 /* LICENSE */,
+				81C562BE0FE64E64625B1B8DE1AF9947 /* PenguinRouting.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		899EE061825FCEDB0DADF8DF0D321261 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				296209A2181366901BD5E2D3987C7B9F /* PenguinRouting */,
+				6F0B68DA15B3093F1912EF18A555C412 /* PenguinUtilities */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE79BA21C7786BC52D903F795087D2F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE1028DEA164DE46D7BCC9FFCF4FB43 /* PenguinUtilities.modulemap */,
+				DE7E2FDC6E38FAD2726847BE76F92215 /* PenguinUtilities-dummy.m */,
+				95EE9B1C2207BCC4F17F8ED8848A171D /* PenguinUtilities-Info.plist */,
+				830735F69E16CDFA1B9C9E8F52C8AC2D /* PenguinUtilities-prefix.pch */,
+				33B7BFDB0342885E533151E08C6D598A /* PenguinUtilities-umbrella.h */,
+				B780DAC9C313125578D4067D9A5BEAC6 /* PenguinUtilities.debug.xcconfig */,
+				7AD43125E693677186AE4719BE3DB0FB /* PenguinUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PenguinUtilities";
+			sourceTree = "<group>";
+		};
+		AFDDCEE5DB26C8710E2C5D2BF26967FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC9963B7020BFFB64F4E063D4E69CA /* Color.swift */,
+			);
+			name = Utils;
+			path = PenguinCore/Classes/PenguinUtilities/Sources/Utils;
 			sourceTree = "<group>";
 		};
 		B10265F198A6F0FD9D0A73E469678726 /* Support Files */ = {
@@ -430,6 +425,21 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		B28974D2AD4B3FAE3954A181D9730D19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7C9F9CD86A8C54EE4D03599B1FA3508 /* Ext+Bool.swift */,
+				F0C0C88542ABE6B0B5866E37D51C7D77 /* Ext+Data.swift */,
+				CE50FE207A61B77B057509F23D1BB74D /* Ext+Dict.swift */,
+				3932E9FA6F8E50C66F3BEF1FA5A66D35 /* Ext+Float.swift */,
+				2A4797D2A478E61984CDB9AC296E6BE1 /* Ext+Int.swift */,
+				1CF25E4622DF37A24625F76F554FF197 /* Ext+String.swift */,
+				278090C315E4127CCD23FC44F510D7C2 /* Ext+UIApplication.swift */,
+			);
+			name = Extensions;
+			path = PenguinCore/Classes/PenguinRouting/Sources/Extensions;
 			sourceTree = "<group>";
 		};
 		B39D8068E7B2B650BA0F8FA72CF8563F /* Pods-PenguinCore_Example */ = {
@@ -449,26 +459,35 @@
 			path = "Target Support Files/Pods-PenguinCore_Example";
 			sourceTree = "<group>";
 		};
-		C07AC052C648749581A3122780C5D10B /* Support Files */ = {
+		B838065329217461F369E95A65CC201A /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				963944E6299D6A1C9C9B78766E342F50 /* PenguinUtilities.modulemap */,
-				3FAA07100C0CA70C957167986FDAB4F5 /* PenguinUtilities-dummy.m */,
-				820D400C88FF4E2EF02FC32D1943E6F2 /* PenguinUtilities-Info.plist */,
-				4419BB18F271F28D8FAA9A271817353C /* PenguinUtilities-prefix.pch */,
-				63D062D273FA04AF6C0A3664267FD1E5 /* PenguinUtilities-umbrella.h */,
-				CDE9124363342ED94FFED61E5D34ED72 /* PenguinUtilities.debug.xcconfig */,
-				1A8F3038317C0367C827A2339B80F9D1 /* PenguinUtilities.release.xcconfig */,
+				59A14D5A77FC9917EAC638936AC0A918 /* PenguinBaseVC.swift */,
+			);
+			name = Protocols;
+			path = PenguinCore/Classes/PenguinUtilities/Sources/Protocols;
+			sourceTree = "<group>";
+		};
+		B9FF26A91097087DE7480BFA29CDAE30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11020209DE91D3218B8F34AA08CFEC77 /* PenguinRouting.modulemap */,
+				309531587DDB14D0030308C397FF8439 /* PenguinRouting-dummy.m */,
+				51CB17B9A6CD0330A18A3F4841D75E3F /* PenguinRouting-Info.plist */,
+				9F46BB30C60B78189ECDFAE475E89857 /* PenguinRouting-prefix.pch */,
+				B5721D1758B4C17503F5E06BAB20524C /* PenguinRouting-umbrella.h */,
+				CC86749A8646DBD8438E9394E57750E3 /* PenguinRouting.debug.xcconfig */,
+				55024A6D4484DBC851B44FABD36F930F /* PenguinRouting.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PenguinUtilities";
+			path = "Example/Pods/Target Support Files/PenguinRouting";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				61F33A9DAD1F37D80439F98C89DEAFFB /* Development Pods */,
+				899EE061825FCEDB0DADF8DF0D321261 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D7A36BA4B042DEF057A525447231F499 /* Pods */,
 				6910265504FC13368741C9A38A6880FA /* Products */,
@@ -535,7 +554,6 @@
 				DFDEAD75D8D695E4C0DA1FE179C1E0C1 /* Resources */,
 				B10265F198A6F0FD9D0A73E469678726 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -547,11 +565,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F787B95EA962B7E42135BAFC907F8EDA /* Pod */ = {
+		E25064128EB19C8268D5C62D5066C3BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6941CD2F93A5A3C6657DFB99D0D7D383 /* LICENSE */,
-				8BADF09680467E70C5F19F64A093C9AE /* PenguinRouting.podspec */,
+				999214D76BC7504D4FFD8B3B0D3FF232 /* PenguinUtilities.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -583,19 +600,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A308D9FF964E95EE99E248174793010A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E88F04E1D8A923E718EAFBEE7B7E4F9 /* PenguinUtilities-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BD2B111EBF8A7845E42930BF05778C63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D389E4D5F97798BE1AEEB8C317852D7 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A57457FBD5A7D9FB77B955FA750A09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851190260C9027041F92C2278E2534BD /* PenguinUtilities-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +631,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0B4D9029071A1810E961B20A5F0FD827 /* PBXTargetDependency */,
+				68C3AEFA87B3A436731B05250F154C75 /* PBXTargetDependency */,
 			);
 			name = SnapKit;
 			productName = SnapKit;
@@ -623,12 +640,12 @@
 		};
 		5EF720D96DEB19CB7C40A7ABD7E151B9 /* PenguinUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94867968E2EC9A63FA5ECD290BEDC835 /* Build configuration list for PBXNativeTarget "PenguinUtilities" */;
+			buildConfigurationList = 8168F35D1AB98424A4B8C47AAE1E0346 /* Build configuration list for PBXNativeTarget "PenguinUtilities" */;
 			buildPhases = (
-				A308D9FF964E95EE99E248174793010A /* Headers */,
-				C7A71A24C66E6D78CA7BC6A7B2B49059 /* Sources */,
-				21A9E5DE459B4EAC41B3423ECC9A1C7B /* Frameworks */,
-				9502D25776EB7E4AA3CF5A12709FEF04 /* Resources */,
+				E0A57457FBD5A7D9FB77B955FA750A09 /* Headers */,
+				E8DDDE17733D6160D50F00FDFCA469C3 /* Sources */,
+				33D48C2E15EB25E8B8287F8C6E841426 /* Frameworks */,
+				DBC8F6B057F3529C31FCF26C8DE8EF8C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -651,7 +668,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				88A52D7D8890E8E1A0D6308F3D2ED541 /* PBXTargetDependency */,
+				31A0A74E52085D83143BB90EBDACBA63 /* PBXTargetDependency */,
 			);
 			name = "Pods-PenguinCore_Tests";
 			productName = Pods_PenguinCore_Tests;
@@ -660,11 +677,11 @@
 		};
 		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25A41696E829DE84C08645C3B5A1FE1 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
+			buildConfigurationList = 1B113E6B7F992CC3BDA4358C173C77A3 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */;
 			buildPhases = (
-				60B6240CE08A67C9FC86B5F2A924C805 /* Sources */,
-				A3A9104C4ED43E891160799DA73FEF75 /* Frameworks */,
-				C40A9661384FBB59850FB4D6C0D30259 /* Resources */,
+				D91611DA9CAED0EAB2083B355E84CDDB /* Sources */,
+				3178EEA624D073C5884A89EB64D3960C /* Frameworks */,
+				8FE25EC0B8FC5D9968B77BEF441CFC22 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -705,9 +722,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E51FCBB68B6C6DB226C82F50881AAD1 /* PBXTargetDependency */,
-				8C4A10576406765CE462691AABF4833C /* PBXTargetDependency */,
-				600063A91CB3D9087776C79B3E9C6319 /* PBXTargetDependency */,
+				EC6B8843AAF907C0EDF21A482EE5C825 /* PBXTargetDependency */,
+				A25E6961CB03EB2A304378D34EFD1696 /* PBXTargetDependency */,
+				7674841117F0D756BE99FEF5F1FDA854 /* PBXTargetDependency */,
 			);
 			name = "Pods-PenguinCore_Example";
 			productName = Pods_PenguinCore_Example;
@@ -762,10 +779,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9502D25776EB7E4AA3CF5A12709FEF04 /* Resources */ = {
+		8FE25EC0B8FC5D9968B77BEF441CFC22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C903172CF5A837E812FFDAF69D2A20 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,11 +794,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40A9661384FBB59850FB4D6C0D30259 /* Resources */ = {
+		DBC8F6B057F3529C31FCF26C8DE8EF8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E730B00985C6E976C7ECFFA316C2B22E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,13 +811,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60B6240CE08A67C9FC86B5F2A924C805 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		60ECB647576BB2BCC5805B038E7F862F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -862,13 +872,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A71A24C66E6D78CA7BC6A7B2B49059 /* Sources */ = {
+		D91611DA9CAED0EAB2083B355E84CDDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC450E088274FD62E0139DD0C015A8F4 /* Ext+UIViewController.swift in Sources */,
-				69F2AC78BFCAC810ABF8D7D4A58C014A /* PenguinBaseVC.swift in Sources */,
-				CAD703C43F9B73B63DFAE15353CF5575 /* PenguinUtilities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DDDE17733D6160D50F00FDFCA469C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BDE91D3D8F614E4536E94AC0081550 /* Color.swift in Sources */,
+				48F7F204E71E2A1B64C63326101B5EFE /* Ext+UIViewController.swift in Sources */,
+				34907854ADD9DCF1FC54C00E443B638F /* PenguinBaseVC.swift in Sources */,
+				BE5E67562C524C0700645AFE /* Ext+UIApplication.swift in Sources */,
+				104615C69534559C49A5B3CBE783A55D /* PenguinUtilities-dummy.m in Sources */,
+				BE5E67582C524D0300645AFE /* Ext+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,68 +917,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B4D9029071A1810E961B20A5F0FD827 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SnapKit-SnapKit_Privacy";
-			target = 8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */;
-			targetProxy = 7106D6F7F4A6F24F79737A4B4C449382 /* PBXContainerItemProxy */;
-		};
-		4E51FCBB68B6C6DB226C82F50881AAD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PenguinRouting;
-			target = D2E1CBE403B02CFF150003F3F6EF4F50 /* PenguinRouting */;
-			targetProxy = BCB3D304F49F2522FFBC88C3FDE9E77F /* PBXContainerItemProxy */;
-		};
-		600063A91CB3D9087776C79B3E9C6319 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 48343E7450085D6EF8A09C2944930A98 /* PBXContainerItemProxy */;
-		};
-		88A52D7D8890E8E1A0D6308F3D2ED541 /* PBXTargetDependency */ = {
+		31A0A74E52085D83143BB90EBDACBA63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PenguinCore_Example";
 			target = E2D43789931B9C2F6268469E271407E7 /* Pods-PenguinCore_Example */;
-			targetProxy = 04E865DE5C99910D84C10EDD734183AB /* PBXContainerItemProxy */;
+			targetProxy = B08E7281A5B8CDEF34FE0B4C6A27B37C /* PBXContainerItemProxy */;
 		};
-		8C4A10576406765CE462691AABF4833C /* PBXTargetDependency */ = {
+		68C3AEFA87B3A436731B05250F154C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SnapKit-SnapKit_Privacy";
+			target = 8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */;
+			targetProxy = 804E9D1C11FBFA75A83E1C2AD81DB6CF /* PBXContainerItemProxy */;
+		};
+		7674841117F0D756BE99FEF5F1FDA854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 085D1F8A313689DF80569EF1718DE35A /* PBXContainerItemProxy */;
+		};
+		A25E6961CB03EB2A304378D34EFD1696 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PenguinUtilities;
 			target = 5EF720D96DEB19CB7C40A7ABD7E151B9 /* PenguinUtilities */;
-			targetProxy = 0CD9E961E5C0839E49A69FAC2A9453C1 /* PBXContainerItemProxy */;
+			targetProxy = 8C24D04F8C60930E4C7964CA2F743834 /* PBXContainerItemProxy */;
+		};
+		EC6B8843AAF907C0EDF21A482EE5C825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PenguinRouting;
+			target = D2E1CBE403B02CFF150003F3F6EF4F50 /* PenguinRouting */;
+			targetProxy = C630A754A1F9A10DC2DF573E7C8C6648 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1166E33A96EE48D72E9DB224752754FB /* Debug */ = {
+		01AF162DBC421B75B0D9F94276E50BD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDE9124363342ED94FFED61E5D34ED72 /* PenguinUtilities.debug.xcconfig */;
+			baseConfigurationReference = A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PenguinUtilities/PenguinUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities.modulemap";
-				PRODUCT_MODULE_NAME = PenguinUtilities;
-				PRODUCT_NAME = PenguinUtilities;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
+				IBSC_MODULE = SnapKit;
+				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = SnapKit_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1030,9 +1035,41 @@
 			};
 			name = Release;
 		};
-		5A13ADFA6F9BF9B61255E7A80B04BB30 /* Debug */ = {
+		5028EC2602C3FA249B25C2A9EC78DC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0507FC067124DC573594984370987FD /* SnapKit.debug.xcconfig */;
+			baseConfigurationReference = B780DAC9C313125578D4067D9A5BEAC6 /* PenguinUtilities.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PenguinUtilities/PenguinUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities.modulemap";
+				PRODUCT_MODULE_NAME = PenguinUtilities;
+				PRODUCT_NAME = PenguinUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D533F7BF95B21A7835B8E07A36EA0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
@@ -1045,7 +1082,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DC653D52510B0D8EFEB6F47DD0A6049 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1150,7 +1187,7 @@
 		};
 		98B4379FF1EBA6411C054E8893CE4A02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56371BDBB9152E429987BF1870AC66D0 /* PenguinRouting.debug.xcconfig */;
+			baseConfigurationReference = CC86749A8646DBD8438E9394E57750E3 /* PenguinRouting.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1235,49 +1272,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A2D41A85FB4C5C48471AC5916A451E50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A8F3038317C0367C827A2339B80F9D1 /* PenguinUtilities.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PenguinUtilities/PenguinUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities.modulemap";
-				PRODUCT_MODULE_NAME = PenguinUtilities;
-				PRODUCT_NAME = PenguinUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A49D2E928C0ADCE7385324296912A395 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C6DC94131F8D99B7D4618F0DD0747B /* PenguinRouting.release.xcconfig */;
+			baseConfigurationReference = 55024A6D4484DBC851B44FABD36F930F /* PenguinRouting.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1374,6 +1377,39 @@
 			};
 			name = Debug;
 		};
+		B86D6F20482E0D22B6D67BC2BD7F79A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD43125E693677186AE4719BE3DB0FB /* PenguinUtilities.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PenguinUtilities/PenguinUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PenguinUtilities/PenguinUtilities.modulemap";
+				PRODUCT_MODULE_NAME = PenguinUtilities;
+				PRODUCT_NAME = PenguinUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D4106774988691751347372A81C903D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D741CF68482D3B2668E95512583F68F8 /* Pods-PenguinCore_Example.debug.xcconfig */;
@@ -1408,26 +1444,18 @@
 			};
 			name = Debug;
 		};
-		E43C99CB8766857EDBDAF8CD62069DC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 742872EB0EA91C729E2E8B14FB0504E8 /* SnapKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SnapKit";
-				IBSC_MODULE = SnapKit;
-				INFOPLIST_FILE = "Target Support Files/SnapKit/ResourceBundle-SnapKit_Privacy-SnapKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = SnapKit_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B113E6B7F992CC3BDA4358C173C77A3 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AF162DBC421B75B0D9F94276E50BD9 /* Debug */,
+				7D533F7BF95B21A7835B8E07A36EA0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1464,11 +1492,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94867968E2EC9A63FA5ECD290BEDC835 /* Build configuration list for PBXNativeTarget "PenguinUtilities" */ = {
+		8168F35D1AB98424A4B8C47AAE1E0346 /* Build configuration list for PBXNativeTarget "PenguinUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1166E33A96EE48D72E9DB224752754FB /* Debug */,
-				A2D41A85FB4C5C48471AC5916A451E50 /* Release */,
+				5028EC2602C3FA249B25C2A9EC78DC36 /* Debug */,
+				B86D6F20482E0D22B6D67BC2BD7F79A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1478,15 +1506,6 @@
 			buildConfigurations = (
 				D4106774988691751347372A81C903D6 /* Debug */,
 				31D0679F22BDD48F23563E876056A881 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E25A41696E829DE84C08645C3B5A1FE1 /* Build configuration list for PBXNativeTarget "SnapKit-SnapKit_Privacy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A13ADFA6F9BF9B61255E7A80B04BB30 /* Debug */,
-				E43C99CB8766857EDBDAF8CD62069DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

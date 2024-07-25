@@ -58,8 +58,7 @@ public class PenguinRouting {
             }
         }
         
-        let vc = router.route(path: path)
-        getNavApp().pushViewController(vc, animated: true)
+        router.route(path: path)
     }
     
     public func checkExistingPath() {
@@ -76,8 +75,7 @@ public class PenguinRouting {
             navigationController: getNavApp(),
             arguments: arguments
         )
-        let vc = router.route(path: path)
-        getNavApp().pushViewController(vc, animated: true)
+        router.route(path: path)
     }
     
     public func back() {
