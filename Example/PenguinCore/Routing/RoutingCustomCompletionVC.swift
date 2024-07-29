@@ -40,7 +40,32 @@ internal final class RoutingCustomCompletionVC: UIViewController, PenguinCoordin
     }()
     
     @objc private func completionStringTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.routing.description,
+                path: RoutingPath.stringCompletion.description
+            ) { [weak self] (result: (Result<String, PenguinRouterError>)) in
+                guard let self = self else { return }
+                
+                PenguinRouting.shared.back()
+                
+                if case let .success(data) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: "Result String is \(data)",
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+                
+                if case let .failure(error) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+            }
     }
     
     private lazy var completionIntButton: UIButton = {
@@ -50,7 +75,32 @@ internal final class RoutingCustomCompletionVC: UIViewController, PenguinCoordin
     }()
     
     @objc private func completionIntTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.routing.description,
+                path: RoutingPath.intCompletion.description
+            ) { [weak self] (result: (Result<Int, PenguinRouterError>)) in
+                guard let self = self else { return }
+                
+                PenguinRouting.shared.back()
+                
+                if case let .success(data) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: "Result randomizer Int is \(data)",
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+                
+                if case let .failure(error) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+            }
     }
     
     private lazy var completionFloatButton: UIButton = {
@@ -60,7 +110,32 @@ internal final class RoutingCustomCompletionVC: UIViewController, PenguinCoordin
     }()
     
     @objc private func completionFloatTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.routing.description,
+                path: RoutingPath.floatCompletion.description
+            ) { [weak self] (result: (Result<Float, PenguinRouterError>)) in
+                guard let self = self else { return }
+                
+                PenguinRouting.shared.back()
+                
+                if case let .success(data) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: "Result randomizer Float is \(data)",
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+                
+                if case let .failure(error) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+            }
     }
     
     private lazy var completionBoolButton: UIButton = {
@@ -70,7 +145,32 @@ internal final class RoutingCustomCompletionVC: UIViewController, PenguinCoordin
     }()
     
     @objc private func completionBoolTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.routing.description,
+                path: RoutingPath.boolCompletion.description
+            ) { [weak self] (result: (Result<Bool, PenguinRouterError>)) in
+                guard let self = self else { return }
+                
+                PenguinRouting.shared.back()
+                
+                if case let .success(data) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: "Result randomizer Bool is \(data)",
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+                
+                if case let .failure(error) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+            }
     }
     
     private lazy var completionDictButton: UIButton = {
@@ -80,7 +180,32 @@ internal final class RoutingCustomCompletionVC: UIViewController, PenguinCoordin
     }()
     
     @objc private func completionDictTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.routing.description,
+                path: RoutingPath.dictCompletion.description
+            ) { [weak self] (result: (Result<Dictionary, PenguinRouterError>)) in
+                guard let self = self else { return }
+                
+                PenguinRouting.shared.back()
+                
+                if case let .success(data) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: "Result Dict is \(data)",
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+                
+                if case let .failure(error) = result {
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
+                }
+            }
     }
 
     override func viewDidLoad() {

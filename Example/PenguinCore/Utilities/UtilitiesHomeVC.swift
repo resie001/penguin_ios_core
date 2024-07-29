@@ -1,17 +1,15 @@
 //
-//  ViewController.swift
-//  PenguinCore
+//  UtilitiesHomeVC.swift
+//  PenguinCore_Example
 //
-//  Created by Ade Resie on 07/22/2024.
-//  Copyright (c) 2024 Ade Resie. All rights reserved.
+//  Created by Ade Resie on 29/07/24.
+//  Copyright © 2024 CocoaPods. All rights reserved.
 //
 
 import UIKit
 import SnapKit
-import PenguinRouting
-import PenguinUtilities
 
-internal final class ViewController: UIViewController {
+internal final class UtilitiesHomeVC: UIViewController {
     private let imgView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "Logo")
@@ -22,36 +20,6 @@ internal final class ViewController: UIViewController {
         return imageView
     }()
     
-    private lazy var routingButton: UIButton = {
-        let button = builderButton(title: "Routing")
-        button.addTarget(self, action: #selector(routingTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    private lazy var utilitiesButton: UIButton = {
-        let button = builderButton(title: "Utilities")
-        button.addTarget(self, action: #selector(utilitiesTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    @objc private func routingTapped() {
-        PenguinRouting
-            .shared
-            .route(
-                name: GlobalPath.routing.description,
-                path: RoutingPath.home.description
-        )
-    }
-    
-    @objc private func utilitiesTapped() {
-        PenguinRouting
-            .shared
-            .route(
-                name: GlobalPath.utilities.description,
-                path: UtilitiesPath.home.description
-        )
-    }
-    
     private let stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.spacing = 0
@@ -60,37 +28,56 @@ internal final class ViewController: UIViewController {
         stackView.axis = .vertical
         return stackView
     }()
+    
+    private lazy var fontButton: UIButton = {
+        let button = builderButton(title: "Font")
+        button.addTarget(self, action: #selector(fontTapped), for: .touchUpInside)
+        return button
+    }()
+    
+    @objc private func fontTapped() {
+        
+    }
+    
+    private lazy var colorButton: UIButton = {
+        let button = builderButton(title: "Color")
+        button.addTarget(self, action: #selector(colorTapped), for: .touchUpInside)
+        return button
+    }()
+    
+    @objc private func colorTapped() {
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupUI()
-        setConstraints()
+        setContraints()
         setSpacing()
     }
-
 }
 
-extension ViewController {
+extension UtilitiesHomeVC {
     private func setupUI() {
-        view.backgroundColor = .Background.dashboard.color
+        view.backgroundColor = .white
         view.addSubview(stackView)
         
+        title = "Example Penguin Core Utilities"
         navigationItem.backButtonTitle = ""
-        title = "Example Penguin Core"
         
         [
             spacer(height: 40),
             imgView,
             UIView(),
-            routingButton,
-            utilitiesButton
+            fontButton,
+            colorButton
         ].forEach {
             stackView.addArrangedSubview($0)
         }
     }
     
-    private func setConstraints() {
+    private func setContraints() {
         stackView.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(16)
             make.bottom.equalToSuperview().offset(-40)
@@ -99,7 +86,7 @@ extension ViewController {
     }
     
     private func setSpacing() {
-        stackView.setCustomSpacing(24, after: routingButton)
+        stackView.setCustomSpacing(24, after: fontButton)
     }
     
     private func builderButton(title: String) -> UIButton {
@@ -126,4 +113,3 @@ extension ViewController {
         return view
     }
 }
-

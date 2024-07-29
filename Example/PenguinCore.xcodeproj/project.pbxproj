@@ -21,6 +21,13 @@
 		BE5E67452C52312800645AFE /* RoutingCustomCompletionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673E2C52312800645AFE /* RoutingCustomCompletionVC.swift */; };
 		BE5E67462C52312800645AFE /* RoutingHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E673F2C52312800645AFE /* RoutingHomeVC.swift */; };
 		BE5E67472C52312800645AFE /* RoutingParameterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67402C52312800645AFE /* RoutingParameterVC.swift */; };
+		BE5E67772C57710700645AFE /* UtilitiesHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67762C57710700645AFE /* UtilitiesHomeVC.swift */; };
+		BE5E67792C57723000645AFE /* UtilitiesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67782C57723000645AFE /* UtilitiesCoordinator.swift */; };
+		BE5E677C2C57763600645AFE /* CustomRoutingIntVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E677B2C57763600645AFE /* CustomRoutingIntVC.swift */; };
+		BE5E677E2C57999400645AFE /* CustomRoutingFloatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E677D2C57999400645AFE /* CustomRoutingFloatVC.swift */; };
+		BE5E67802C579ADA00645AFE /* CustomRoutingStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E677F2C579ADA00645AFE /* CustomRoutingStringVC.swift */; };
+		BE5E67822C579B9700645AFE /* CustomRoutingBoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67812C579B9700645AFE /* CustomRoutingBoolVC.swift */; };
+		BE5E67842C579C3C00645AFE /* CustomRoutingDictVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67832C579C3C00645AFE /* CustomRoutingDictVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 		BE5E673E2C52312800645AFE /* RoutingCustomCompletionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingCustomCompletionVC.swift; sourceTree = "<group>"; };
 		BE5E673F2C52312800645AFE /* RoutingHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingHomeVC.swift; sourceTree = "<group>"; };
 		BE5E67402C52312800645AFE /* RoutingParameterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingParameterVC.swift; sourceTree = "<group>"; };
+		BE5E67762C57710700645AFE /* UtilitiesHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesHomeVC.swift; sourceTree = "<group>"; };
+		BE5E67782C57723000645AFE /* UtilitiesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesCoordinator.swift; sourceTree = "<group>"; };
+		BE5E677B2C57763600645AFE /* CustomRoutingIntVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingIntVC.swift; sourceTree = "<group>"; };
+		BE5E677D2C57999400645AFE /* CustomRoutingFloatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingFloatVC.swift; sourceTree = "<group>"; };
+		BE5E677F2C579ADA00645AFE /* CustomRoutingStringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingStringVC.swift; sourceTree = "<group>"; };
+		BE5E67812C579B9700645AFE /* CustomRoutingBoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingBoolVC.swift; sourceTree = "<group>"; };
+		BE5E67832C579C3C00645AFE /* CustomRoutingDictVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingDictVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 		607FACD21AFB9204008FA782 /* Example for PenguinCore */ = {
 			isa = PBXGroup;
 			children = (
+				BE5E67752C5770D800645AFE /* Utilities */,
 				BE5E67412C52312800645AFE /* Routing */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -166,7 +181,7 @@
 		BE5E67412C52312800645AFE /* Routing */ = {
 			isa = PBXGroup;
 			children = (
-				BE5E67492C5231C500645AFE /* Custom Routing */,
+				BE5E677A2C57750C00645AFE /* Custom Routing */,
 				BE5E673B2C52312800645AFE /* RoutingBasicCompletionVC.swift */,
 				BE5E673C2C52312800645AFE /* RoutingBasicVC.swift */,
 				BE5E673D2C52312800645AFE /* RoutingCoordinator.swift */,
@@ -177,9 +192,23 @@
 			path = Routing;
 			sourceTree = "<group>";
 		};
-		BE5E67492C5231C500645AFE /* Custom Routing */ = {
+		BE5E67752C5770D800645AFE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				BE5E67762C57710700645AFE /* UtilitiesHomeVC.swift */,
+				BE5E67782C57723000645AFE /* UtilitiesCoordinator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BE5E677A2C57750C00645AFE /* Custom Routing */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E677B2C57763600645AFE /* CustomRoutingIntVC.swift */,
+				BE5E677D2C57999400645AFE /* CustomRoutingFloatVC.swift */,
+				BE5E677F2C579ADA00645AFE /* CustomRoutingStringVC.swift */,
+				BE5E67812C579B9700645AFE /* CustomRoutingBoolVC.swift */,
+				BE5E67832C579C3C00645AFE /* CustomRoutingDictVC.swift */,
 			);
 			path = "Custom Routing";
 			sourceTree = "<group>";
@@ -371,11 +400,18 @@
 				BE5E67432C52312800645AFE /* RoutingBasicVC.swift in Sources */,
 				BE5E67462C52312800645AFE /* RoutingHomeVC.swift in Sources */,
 				BE5E67182C4E3C2500645AFE /* GlobalPath.swift in Sources */,
+				BE5E67802C579ADA00645AFE /* CustomRoutingStringVC.swift in Sources */,
+				BE5E67842C579C3C00645AFE /* CustomRoutingDictVC.swift in Sources */,
+				BE5E67792C57723000645AFE /* UtilitiesCoordinator.swift in Sources */,
+				BE5E67822C579B9700645AFE /* CustomRoutingBoolVC.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				BE5E677E2C57999400645AFE /* CustomRoutingFloatVC.swift in Sources */,
+				BE5E67772C57710700645AFE /* UtilitiesHomeVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				BE5E67452C52312800645AFE /* RoutingCustomCompletionVC.swift in Sources */,
 				BE5E67472C52312800645AFE /* RoutingParameterVC.swift in Sources */,
 				BE5E67422C52312800645AFE /* RoutingBasicCompletionVC.swift in Sources */,
+				BE5E677C2C57763600645AFE /* CustomRoutingIntVC.swift in Sources */,
 				BE5E67442C52312800645AFE /* RoutingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

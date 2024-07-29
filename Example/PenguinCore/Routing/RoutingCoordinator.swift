@@ -9,8 +9,8 @@
 import Foundation
 import PenguinRouting
 
-public enum RoutingPath: String, CaseIterable {
-    case home = "/home"
+internal enum RoutingPath: String, CaseIterable {
+    case home = "/"
     case basic = "/basic"
     case withParameter = "/with-parameter"
     case withBasicCompletion = "/with-basic-completion"
@@ -31,7 +31,7 @@ public enum RoutingPath: String, CaseIterable {
     }
 }
 
-public final class RoutingCoordinator: PenguinRouterCoordinator {
+internal final class RoutingCoordinator: PenguinRouterCoordinator {
     public static var name: String = GlobalPath.routing.description
     public static var paths: [String] = RoutingPath.allCasesAsString
     
@@ -53,6 +53,21 @@ public final class RoutingCoordinator: PenguinRouterCoordinator {
             
         case RoutingPath.withCustomCompletion.description:
             vc = RoutingCustomCompletionVC.create(coordinator: self)
+            
+        case RoutingPath.intCompletion.description:
+            vc = CustomRoutingIntVC.create(coordinator: self)
+            
+        case RoutingPath.floatCompletion.description:
+            vc = CustomRoutingFloatVC.create(coordinator: self)
+            
+        case RoutingPath.boolCompletion.description:
+            vc = CustomRoutingBoolVC.create(coordinator: self)
+            
+        case RoutingPath.stringCompletion.description:
+            vc = CustomRoutingStringVC.create(coordinator: self)
+            
+        case RoutingPath.dictCompletion.description:
+            vc = CustomRoutingDictVC.create(coordinator: self)
             
         default:
             fatalError(PenguinRouterError.pathNotExist.description)

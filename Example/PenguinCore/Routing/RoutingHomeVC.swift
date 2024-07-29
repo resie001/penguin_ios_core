@@ -75,12 +75,16 @@ internal final class RoutingHomeVC: UIViewController {
             .route(
                 name: GlobalPath.routing.description,
                 path: RoutingPath.withBasicCompletion.description
-            ) { [weak self] result in
+            ) { [weak self] (result: Result<Void, PenguinRouterError>) in
                 guard let self = self else { return }
                 PenguinRouting.shared.back()
                 
                 if case let .failure(error) = result {
-                    self.showToast(message: error.description)
+                    self.sendNotification(
+                        title: "Penguin Core Example",
+                        body: error.description,
+                        time: .leastNonzeroMagnitude
+                    )
                 }
             }
     }
@@ -99,17 +103,6 @@ internal final class RoutingHomeVC: UIViewController {
                 path: RoutingPath.withCustomCompletion.description
             )
     }
-    
-    private lazy var objectCompletionButton: UIButton = {
-        let button = builderButton(title: "With Object Completion")
-        button.addTarget(self, action: #selector(customCompletionTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    @objc private func objectCompletionTapped() {
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -180,25 +173,24 @@ extension RoutingHomeVC {
 }
 
 internal extension UIViewController {
-    func showToast(message: String, font: UIFont = .systemFont(ofSize: 14.0)) {
-        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75,
-                                               y: self.view.frame.size.height - 100,
-                                               width: 150,
-                                               height: 35))
-        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-        toastLabel.textColor = UIColor.white
-        toastLabel.font = font
-        toastLabel.textAlignment = .center
-        toastLabel.text = message
-        toastLabel.alpha = 1.0
-        toastLabel.layer.cornerRadius = 10
-        toastLabel.clipsToBounds = true
+    func sendNotification(title: String, body: String, time: TimeInterval) {
+        let identifier = "task-notification"
+        let notificationCenter = UNUserNotificationCenter.current()
         
-        self.view.addSubview(toastLabel)
-        UIView.animate(withDuration: 5.0, delay: 0.1, options: .curveEaseOut, animations: {
-            toastLabel.alpha = 0.0
-        }, completion: { (isCompleted) in
-            toastLabel.removeFromSuperview()
-        })
+        let content = UNMutableNotificationContent()
+        content.title = title
+        content.body = body
+        content.badge = NSNumber(value: 3)
+        content.sound = .default()
+        
+        let triger = UNTimeIntervalNotificationTrigger(timeInterval: time, repeats: false)
+        let request = UNNotificationRequest(identifier: identifier, content: content, trigger: triger)
+        
+        notificationCenter.removePendingNotificationRequests(withIdentifiers: [identifier])
+        notificationCenter.add(request) { (error) in
+            if let error = error {
+                debugPrint("Notification Error: ", error)
+            }
+        }
     }
 }

@@ -21,7 +21,7 @@ public extension Data {
     }
     
     func isString() -> Bool {
-        return self.count == MemoryLayout<String>.size
+        return String(data: self, encoding: .utf8) != nil
     }
     
     func isVoid() -> Bool {

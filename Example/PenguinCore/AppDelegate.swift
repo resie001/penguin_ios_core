@@ -18,6 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        UNUserNotificationCenter.current().delegate = self
+        
+        let notificationCenter = UNUserNotificationCenter.current()
+        notificationCenter.getNotificationSettings { settings in
+            switch settings.authorizationStatus {
+            case .authorized:
+                print("notification authorized")
+//                self.reminderNotification()
+            case .notDetermined:
+                notificationCenter.requestAuthorization(options: [.alert, .sound]) { didAllow, error in
+                    if didAllow {
+                        print("notification authorized")
+//                        self.reminderNotification()
+                    } else {
+                        print("notification denied")
+                    }
+                }
+            default:
+                print("notification denied")
+            }
+        }
+        
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.systemBackground
         window?.makeKeyAndVisible()
@@ -25,7 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = ViewController()
         let navigationController = UINavigationController.init(rootViewController: vc)
         PenguinRouting.shared.register(
-            RoutingCoordinator.self
+            RoutingCoordinator.self,
+            UtilitiesCoordinator.self
         )
         
         window?.rootViewController = navigationController
@@ -58,3 +82,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.badge, .alert, .sound])
+    }
+}

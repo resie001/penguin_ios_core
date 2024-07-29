@@ -9,7 +9,8 @@
 import Foundation
 
 internal enum GlobalPath: String, CaseIterable {
-    case routing = "routing"
+    case routing = "/routing"
+    case utilities = "/utilities"
     
     var description: String {
         return self.rawValue
