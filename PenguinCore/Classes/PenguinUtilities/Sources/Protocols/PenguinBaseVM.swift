@@ -11,5 +11,5 @@ public protocol PenguinBaseVM {
     associatedtype Input
     associatedtype Output
     
-    func transform(input: Input) -> Output
+    func transform(input: Input, cancellables: CancelBag) -> Output
 }
