@@ -86,7 +86,7 @@ class PenguinFont {
         }
     }
     
-    public static func install() {
+    internal static func install() {
         guard PenguinFont.installed == false else { return }
         PenguinFont.installed = true
         
@@ -101,5 +101,67 @@ class PenguinFont {
                 }
             }
         }
+    }
+}
+
+public extension UIFont {
+    static func black(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func blackItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func bold(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func boldItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func extraBold(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func extraBoldItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func extraLight(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func extraLightItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func medium(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func mediumItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func regular(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func semiBold(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func semiBoldItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func thin(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+    }
+    
+    static func thinItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
     }
 }
