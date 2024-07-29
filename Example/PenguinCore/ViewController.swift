@@ -9,6 +9,7 @@
 import UIKit
 import SnapKit
 import PenguinRouting
+import PenguinUtilities
 
 internal final class ViewController: UIViewController {
     private let imgView: UIImageView = {
@@ -57,7 +58,7 @@ internal final class ViewController: UIViewController {
 
 extension ViewController {
     private func setupUI() {
-        view.backgroundColor = .white
+        view.backgroundColor = .Background.dashboard.color
         view.addSubview(stackView)
         
         navigationItem.backButtonTitle = ""
