@@ -8,6 +8,26 @@
 import Foundation
 
 public extension Data {
+    func isInt() -> Bool {
+        return self.count == MemoryLayout<Int>.size
+    }
+    
+    func isFloat() -> Bool {
+        return self.count == MemoryLayout<Float>.size
+    }
+    
+    func isBool() -> Bool {
+        return self.count == MemoryLayout<Bool>.size
+    }
+    
+    func isString() -> Bool {
+        return self.count == MemoryLayout<String>.size
+    }
+    
+    func isVoid() -> Bool {
+        return self.isEmpty
+    }
+    
     func decode<T>(type: T.Type) -> Any {
         switch type {
         case is Int.Type:
@@ -38,7 +58,7 @@ public extension Data {
             }
             
         default:
-            fatalError("")
+            fatalError(PenguinRouterError.failureWithMessage(message: "Decode Error, data is neither Int, Bool, String, Float, Void, or Dictionary").description)
         }
     }
 }

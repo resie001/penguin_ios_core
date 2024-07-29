@@ -21,11 +21,8 @@ public enum PenguinRouterError: Error {
     case unauthorizedPath(path:String, reason: String)
     
     case emptyFailure
-    case failureWithString(data: String)
-    case failureWithBool(data: Bool)
-    case failureWithFloat(data: Float)
-    case failureWithInt(data: Int)
-    case failureWithArguments(data: [String: Any])
+    case failureWithMessage(message: String)
+    case failureDataType(type: Any, data: Data)
     
     case routeNotExist
     case routeAlreadyExist
@@ -63,16 +60,25 @@ extension PenguinRouterError: CustomStringConvertible, CustomDebugStringConverti
             
         case .emptyFailure:
             return "Failure completion"
-        case .failureWithString:
-            return "Failure completion with String data"
-        case .failureWithInt:
-            return "Failure completion with Int data"
-        case .failureWithFloat:
-            return "Failure completion with Float data"
-        case .failureWithBool:
-            return "Failure completion with Bool data"
-        case .failureWithArguments:
-            return "Failure completion with Arguments data"
+        case let .failureWithMessage(message):
+            return "Falure completion with message: \(message)"
+        case let .failureDataType(type, data):
+            var str = ""
+            switch type {
+            case is Int:
+                str = "Int"
+            case is Bool:
+                str = "Bool"
+            case is Float:
+                str = "Float"
+            case is String:
+                str = "String"
+            case is Void:
+                str = "Void"
+            default:
+                str = "Dictionary"
+            }
+            return "Completion success error. Data is not \(str). Data is \(detectType(data: data))!"
         
         case .routeNotExist:
             return "Route not found!"
@@ -91,6 +97,30 @@ extension PenguinRouterError: CustomStringConvertible, CustomDebugStringConverti
         case let .pathInvalid(path):
             return "Path \"\(path)\" have invalid format!. First char must be \"/\" and use only lowercased alphabet and (-)."
         }
+    }
+    
+    internal func detectType(data: Data) -> String {
+        if data.isInt() {
+            return "Int"
+        }
+        
+        if data.isBool() {
+            return "Bool"
+        }
+        
+        if data.isFloat() {
+            return "Float"
+        }
+        
+        if data.isString() {
+            return "String"
+        }
+        
+        if data.isEmpty {
+            return "Void"
+        }
+        
+        return "Dictionary"
     }
     
     public var debugDescription: String {

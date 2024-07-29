@@ -64,13 +64,13 @@ final class PenguinRouterRegistry {
     }
     
     func isRouterValidInput(_ input: String) -> Bool {
-        let pattern = "^(?!-)[a-z/\\-]*(?!.*[/]{2})(?!.*[-]{2})(?<![-/])[^\\s]*$"
+        let pattern = #"^/(?!-)[a-z/\\-]*(?!.*[/]{2})(?!.*[-]{2})(?<![-/])[^\\s]*$"#
         let regexTest = NSPredicate(format: "SELF MATCHES %@", pattern)
         return regexTest.evaluate(with: input)
     }
     
     func isPathValidInput(_ input: String) -> Bool {
-        let pattern = #"^/(?!-)[a-z/\\-]*(?!.*//)(?!.*--)(?<![-/])[^\\s]*$"#
+        let pattern = "^/(?!-)[a-z/\\-]*(?!//)(?!.*--)(?<!-)[^\\s]*$"
         let regexTest = NSPredicate(format: "SELF MATCHES %@", pattern)
         return regexTest.evaluate(with: input)
     }
