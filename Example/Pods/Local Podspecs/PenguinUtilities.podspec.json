@@ -20,5 +20,20 @@
   },
   "swift_versions": "5.0",
   "source_files": "PenguinCore/Classes/PenguinUtilities/Sources/**/*.{swift}",
+  "subspecs": [
+    {
+      "name": "Assets",
+      "source_files": [
+        "PenguinCore/Classes/PenguinUtilities/Assets/**/*",
+        "PenguinCore/Classes/PenguinUtilities/Assets/**/*.swift"
+      ],
+      "resources": "PenguinCore/Classes/PenguinUtilities/Assets/**/*.{json,xcassets,png,jpg,jpeg,ttf}",
+      "resource_bundles": {
+        "PrivyFontResource": [
+          "PenguinCore/Classes/PenguinUtilities/Assets/Poppins/**/*.{ttf}"
+        ]
+      }
+    }
+  ],
   "swift_version": "5.0"
 }

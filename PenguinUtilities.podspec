@@ -25,11 +25,16 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'PenguinCore/Classes/PenguinUtilities/Sources/**/*.{swift}'
   
-  # s.resource_bundles = {
-  #   'PenguinRouting' => ['PenguinCore/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Assets' do |sp|
+    sp.source_files = [
+    'PenguinCore/Classes/PenguinUtilities/Assets/**/*',
+    'PenguinCore/Classes/PenguinUtilities/Assets/**/*.swift'
+    ]
+    
+    sp.resources = 'PenguinCore/Classes/PenguinUtilities/Assets/**/*.{json,xcassets,png,jpg,jpeg,ttf}'
+    
+    sp.resource_bundles = {
+      'PenguinFontResource' => ['PenguinCore/Classes/PenguinUtilities/Assets/Poppins/**/*.{ttf}']
+    }
+  end
 end
