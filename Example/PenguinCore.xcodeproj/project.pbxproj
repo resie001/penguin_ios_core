@@ -28,6 +28,7 @@
 		BE5E67802C579ADA00645AFE /* CustomRoutingStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E677F2C579ADA00645AFE /* CustomRoutingStringVC.swift */; };
 		BE5E67822C579B9700645AFE /* CustomRoutingBoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67812C579B9700645AFE /* CustomRoutingBoolVC.swift */; };
 		BE5E67842C579C3C00645AFE /* CustomRoutingDictVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67832C579C3C00645AFE /* CustomRoutingDictVC.swift */; };
+		BE5E67862C57A51500645AFE /* UtilitiesFontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E67852C57A51500645AFE /* UtilitiesFontVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		BE5E677F2C579ADA00645AFE /* CustomRoutingStringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingStringVC.swift; sourceTree = "<group>"; };
 		BE5E67812C579B9700645AFE /* CustomRoutingBoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingBoolVC.swift; sourceTree = "<group>"; };
 		BE5E67832C579C3C00645AFE /* CustomRoutingDictVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoutingDictVC.swift; sourceTree = "<group>"; };
+		BE5E67852C57A51500645AFE /* UtilitiesFontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesFontVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			children = (
 				BE5E67762C57710700645AFE /* UtilitiesHomeVC.swift */,
 				BE5E67782C57723000645AFE /* UtilitiesCoordinator.swift */,
+				BE5E67852C57A51500645AFE /* UtilitiesFontVC.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				BE5E67842C579C3C00645AFE /* CustomRoutingDictVC.swift in Sources */,
 				BE5E67792C57723000645AFE /* UtilitiesCoordinator.swift in Sources */,
 				BE5E67822C579B9700645AFE /* CustomRoutingBoolVC.swift in Sources */,
+				BE5E67862C57A51500645AFE /* UtilitiesFontVC.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				BE5E677E2C57999400645AFE /* CustomRoutingFloatVC.swift in Sources */,
 				BE5E67772C57710700645AFE /* UtilitiesHomeVC.swift in Sources */,

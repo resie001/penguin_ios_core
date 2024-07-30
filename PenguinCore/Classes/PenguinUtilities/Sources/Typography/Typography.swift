@@ -110,39 +110,47 @@ public extension UIFont {
     }
     
     static func blackItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsBlackItalic).withSize(size)
     }
     
     static func bold(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsBold).withSize(size)
     }
     
     static func boldItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsBoldItalic).withSize(size)
+    }
+    
+    static func italic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsItalic).withSize(size)
+    }
+    
+    static func lightItalic(size: CGFloat) -> UIFont {
+        return PenguinFont.configureFont(.PoppinsLightItalic).withSize(size)
     }
     
     static func extraBold(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsExtraBold).withSize(size)
     }
     
     static func extraBoldItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsExtraBoldItalic).withSize(size)
     }
     
     static func extraLight(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsExtraLight).withSize(size)
     }
     
     static func extraLightItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsExtraLightItalic).withSize(size)
     }
     
     static func medium(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsMedium).withSize(size)
     }
     
     static func mediumItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsMediumItalic).withSize(size)
     }
     
     static func regular(size: CGFloat) -> UIFont {
@@ -150,18 +158,18 @@ public extension UIFont {
     }
     
     static func semiBold(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsSemiBold).withSize(size)
     }
     
     static func semiBoldItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsSemiBoldItalic).withSize(size)
     }
     
     static func thin(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsThin).withSize(size)
     }
     
     static func thinItalic(size: CGFloat) -> UIFont {
-        return PenguinFont.configureFont(.PoppinsBlack).withSize(size)
+        return PenguinFont.configureFont(.PoppinsThinItalic).withSize(size)
     }
 }

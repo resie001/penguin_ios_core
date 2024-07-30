@@ -27,10 +27,10 @@
         "PenguinCore/Classes/PenguinUtilities/Assets/**/*",
         "PenguinCore/Classes/PenguinUtilities/Assets/**/*.swift"
       ],
-      "resources": "PenguinCore/Classes/PenguinUtilities/Assets/**/*.{json,xcassets,png,jpg,jpeg,ttf}",
+      "resources": "PenguinCore/Classes/PenguinUtilities/Sources/**/*.{json,xcassets,png,jpg,jpeg,ttf}",
       "resource_bundles": {
-        "PrivyFontResource": [
-          "PenguinCore/Classes/PenguinUtilities/Assets/Poppins/**/*.{ttf}"
+        "PenguinFontResource": [
+          "PenguinCore/Classes/PenguinUtilities/Sources/Assets/**/*.{ttf}"
         ]
       }
     }

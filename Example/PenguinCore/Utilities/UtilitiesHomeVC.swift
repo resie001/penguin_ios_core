@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import PenguinRouting
 
 internal final class UtilitiesHomeVC: UIViewController {
     private let imgView: UIImageView = {
@@ -36,7 +37,12 @@ internal final class UtilitiesHomeVC: UIViewController {
     }()
     
     @objc private func fontTapped() {
-        
+        PenguinRouting
+            .shared
+            .route(
+                name: GlobalPath.utilities.description,
+                path: UtilitiesPath.font.description
+            )
     }
     
     private lazy var colorButton: UIButton = {

@@ -31,6 +31,10 @@ internal final class UtilitiesCoordinator: PenguinRouterCoordinator {
         case UtilitiesPath.home.description:
             let vc = UtilitiesHomeVC()
             navigationController.pushViewController(vc, animated: true)
+            
+        case UtilitiesPath.font.description:
+            let vc = UtilitiesFontVC()
+            navigationController.pushViewController(vc, animated: true)
         
         default:
             fatalError(PenguinRouterError.pathNotExist.description)

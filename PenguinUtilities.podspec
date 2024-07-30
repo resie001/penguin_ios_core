@@ -27,14 +27,14 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Assets' do |sp|
     sp.source_files = [
-    'PenguinCore/Classes/PenguinUtilities/Assets/**/*',
-    'PenguinCore/Classes/PenguinUtilities/Assets/**/*.swift'
+      'PenguinCore/Classes/PenguinUtilities/Assets/**/*',
+      'PenguinCore/Classes/PenguinUtilities/Assets/**/*.swift'
     ]
     
-    sp.resources = 'PenguinCore/Classes/PenguinUtilities/Assets/**/*.{json,xcassets,png,jpg,jpeg,ttf}'
+    sp.resources = 'PenguinCore/Classes/PenguinUtilities/Sources/**/*.{json,xcassets,png,jpg,jpeg,ttf}'
     
     sp.resource_bundles = {
-      'PenguinFontResource' => ['PenguinCore/Classes/PenguinUtilities/Assets/Poppins/**/*.{ttf}']
+      'PenguinFontResource' => ['PenguinCore/Classes/PenguinUtilities/Sources/Assets/Poppins/**/*.{ttf}']
     }
   end
 end
